@@ -1,0 +1,18 @@
+filename = 'Highlands-1.7.2-v-2.2.3.jar'
+name = 'Highlands'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.2', '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Highlands-1.7.2-v-2.2.3.jar'
+
+[download]
+hash = '6b8bc4314837c12b680a992725337f4e97f03627'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2227924
+project-id = 221226

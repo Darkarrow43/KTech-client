@@ -1,0 +1,16 @@
+filename = 'shaderfixer-5.4.jar'
+name = 'Shader Fixer'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '32999c89a005800290012fcd92d517ef35c1aadf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8188786
+project-id = 977626

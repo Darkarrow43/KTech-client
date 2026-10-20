@@ -1,0 +1,16 @@
+filename = 'EuphoriaPatcher-1.9.3-r5.8.1-forge1.7.10.jar'
+name = 'Euphoria Patcher'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f255908d0479971ff46bc6788100cd66ee8f35bed07cb1b26b6b5d874f6dc01335b39731608a3d714e7462a7a2e8de9bdfbb1e4e92207968e729c1393480607a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4H6sumDB/versions/KCj70UqE/EuphoriaPatcher-1.9.3-r5.8.1-forge1.7.10.jar'
+
+[update.modrinth]
+mod-id = '4H6sumDB'
+version = 'KCj70UqE'

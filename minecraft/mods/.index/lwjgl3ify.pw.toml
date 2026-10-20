@@ -1,0 +1,16 @@
+filename = 'lwjgl3ify-3.0.28.jar'
+name = 'lwjgl3ify'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '85fa420744e66f24bbfe45c50613621ce54d8f44'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8442491
+project-id = 998880

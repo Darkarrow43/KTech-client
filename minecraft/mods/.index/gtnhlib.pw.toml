@@ -1,0 +1,16 @@
+filename = 'gtnhlib-0.11.30.jar'
+name = 'GTNH Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9e371799ad7a1ad2df4c7181884197eb82b36ec8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8429088
+project-id = 688894

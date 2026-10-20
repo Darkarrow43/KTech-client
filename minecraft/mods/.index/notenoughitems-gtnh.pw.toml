@@ -1,0 +1,16 @@
+filename = 'NotEnoughItems-2.8.114-GTNH.jar'
+name = 'NotEnoughItems'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'abe5840795023b4b299b61ba40c0a48b9b6a0094'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8414766
+project-id = 358228

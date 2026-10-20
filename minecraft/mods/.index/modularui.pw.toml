@@ -1,0 +1,16 @@
+filename = 'modularui2-2.3.80-1.7.10.jar'
+name = 'ModularUI'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '93d97028892b1d55e91770e38a968af572810a97'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8380601
+project-id = 624243

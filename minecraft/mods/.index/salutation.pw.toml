@@ -1,0 +1,16 @@
+filename = 'Salutation-1.7.10-1.0.2.jar'
+name = 'Salutation'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '116dc0db8471275658f6e31ebd037fc786d29397'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8021658
+project-id = 1336558

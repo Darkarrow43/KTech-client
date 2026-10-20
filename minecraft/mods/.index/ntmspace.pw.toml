@@ -1,0 +1,16 @@
+filename = 'HBM-NTM-[1.0.27_X5758_H261].jar'
+name = 'NTM: Space'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '590c128dba8c4eb55ac4835d3c8f49bb04817418b8538e864f7aedc65a48acc6bd16e5697702bfcd1c037ab75ee95b88b513ba269ed7af22d46f0ccbaba720f3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LKOB3KzA/versions/CZHIrRq4/HBM-NTM-%5B1.0.27_X5758_H261%5D.jar'
+
+[update.modrinth]
+mod-id = 'LKOB3KzA'
+version = 'CZHIrRq4'
