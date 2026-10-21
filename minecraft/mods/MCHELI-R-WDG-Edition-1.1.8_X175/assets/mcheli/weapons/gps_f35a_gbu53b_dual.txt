@@ -1,0 +1,70 @@
+DisplayName = GBU-53/B SDB II [Dual GPS - IR]
+Type = ASmissile
+Power = 0
+Acceleration = 0.5
+Explosion = 8
+explosionblock=5
+Flaming = false
+Sight = MoveSight
+Delay = 20
+round=4
+reloadtime = 10
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = gbu53
+TimeFuse = 1000
+Accuracy = 0
+DisableSmoke = True
+
+DisplayMortarDistance = true
+
+effectyield = 2
+
+EnableOffAxis = true
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+turningFactor = 0.04
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+EnableOffAxis = false
+LockTime = 1
+IsGPSMissile = true
+MaxDegreeOfMissile = 270
+RigidityTime = 0
+
+SpeedDependsAircraft =true
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 1
+ExplosionDamageVsShip=5
+enableChunkLoader = true
+
+LockEntity=true
+MaxLockOnRange = 500
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+FlareDiversionChance = 0.05
+enableChunkLoader = true
+DestructAfterSpawnBullet=true
+SpawnBulletInAir = true
+ModelBomblet = iragm_f35a_gbu53b_term
+BombletDiff = 0
+SpawnBulletMaxNum = 1
+SpawnBulletIntervalTick = 80
+SpawnBulletPerNum=1
+SpawnBulletInheritSpeed = true

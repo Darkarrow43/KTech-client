@@ -1,0 +1,115 @@
+DisplayName = B-2A SPIRIT
+AddDisplayName = zh_CN, B-2A 幽灵
+AddDisplayName = en_US,B-2A SPIRIT
+MaxHp = 500
+
+Category = 5.0
+ItemID = 287381
+HUD = jet, jet_gunner
+ThirdPersonDist = 30
+Speed = 0.9
+MobilityPitch = 0.5
+MobilityRoll = 0.3
+MobilityYaw = 0.5
+ThrottleUpDown = 0.6
+MinRotationPitch = -60
+MaxRotationPitch = 60
+Soundvolume = 10
+
+RadarType = MODERN_AA
+NameOnModernAARadar = B2
+NameOnEarlyAARadar = B2
+NameOnModernASRadar = B2
+NameOnEarlyASRadar = B2
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = false
+RadarScanElevationDeg = 80
+RadarFollowTurretYaw = false
+RadarElevationReference = AIRCRAFT
+RadarPanelFillAlpha = 0.075
+RadarElevationCoverage = DOWN_ONLY
+RadarScanAzimuthDeg = 120
+RadarScanTick = 14
+RadarContactHoldTick = 100
+RadarMaxTargetRange = 1000
+RadarSearchType = GMTI_TWS
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 10
+RadarDetectChanceBase = 0.95
+RadarTrackAzimuthDeg = 100
+RadarTrackElevationDeg = 65
+RadarGainFactor = 1.45, 0.52
+NameOnRWR = B2
+RadarRCSFactor = 0.015, 0.08, 0.04, 0.35
+
+MaxFuel = 2000
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.0, 0.00, 0.00
+EnableGunnerMode = true
+AutoPilotRot = 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.80,  3.40,  0.28
+AddGunnerSeat = -0.80,  3.40,  0.28, 0.0, 2.66, 3.78, true
+
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+
+AddPartWeaponBay = bgps_b2a_gbu57/ BOMBER_LASER_AGM / BOMBER_IR_AGM   , -2.79, 1.86,-6.56,  0, -0.04, 1.0, -90
+AddPartWeaponBay = bgps_b2a_gbu57/ BOMBER_LASER_AGM / BOMBER_IR_AGM  , -0.15, 1.72,-6.56,  0, -0.04, 1.0,  90
+AddPartWeaponBay = bgps_b2a_gbu57/ BOMBER_LASER_AGM / BOMBER_IR_AGM  ,  2.79, 1.86,-6.56,  0, -0.04, 1.0,  90
+AddPartWeaponBay = bgps_b2a_gbu57/ BOMBER_LASER_AGM / BOMBER_IR_AGM  ,  0.15, 1.72,-6.56,  0, -0.04, 1.0, -90
+
+engineShutdownThreshold = 10
+explosionsizebycrash = 7
+BoundingBox = 0.0, 3.5, 1.8,  7.0, 4.0
+BoundingBox = 0.0, 3.5, -5.2,  7.0, 4.0
+BoundingBox = 0.0, 3.0,-13.8,  10, 2.0
+BoundingBox = 8.5, 3.2, -6.3, 10.0, 2.3
+BoundingBox = -8.5, 3.2, -6.3, 10.0, 2.3
+BoundingBox = 15.5, 3.2, -6.3, 6.0, 2.3
+BoundingBox = -15.5, 3.2, -6.3, 6.0, 2.3
+BoundingBox = 19.5, 3.2, -6.3, 4.0, 2.3
+BoundingBox = -19.5, 3.2, -6.3, 4.0, 2.3
+
+FlareType = 2
+FlareCapacity = 24
+FlareReleaseCooldown = 8
+HasChaff = true
+ChaffCapacity = 36
+ChaffReleaseCooldown = 6
+
+hasMaintenance = true
+MaintenceUsetime = 20
+MaintenceWaittime = 1200
+
+;Parts
+AddPartLG         =   0.00,  2.96,  2.79,  1,0,0,      75
+AddPartLGRev      =   0.00,  2.87,  3.29,  1,0,0,     -60
+AddPartLGHatch    =  -0.65,  1.75,  0.25,  0,0.22,1,  -90
+AddPartLG         =   0.00,  3.05, -7.96,  1,0,0,     -90
+AddPartSlideRotLG =   0.00,  2.74,  3.31,  0.00, 0.00, 0.00, 1,0,0, 0
+AddPartLGRev      =  -7.74,  2.23, -7.02,  0,-0.02,1, -90
+AddPartLGRev      =   7.74,  2.23, -7.02,  0,-0.02,1,  90
+AddPartLGRev      =  -5.06,  4.38, -5.57,  0.91, 0.10,1, -45
+AddPartLGRev      =  -4.06,  4.41, -5.57, -0.99,-0.07,1,  45
+AddPartLGRev      =   5.06,  4.38, -5.57, -0.91, 0.10,1,  45
+AddPartLGRev      =   4.06,  4.41, -5.57,  0.99,-0.07,1, -45
+
+;Weapons
+AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
+AddWeapon = bgps_b2a_gbu57,  1.84,  2.80, -4.27,   0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = bgps_b2a_gbu57, -1.84,  2.80, -4.27,   0,0.0, false,1,  0,-360,360, 0,90
+
+ConcurrentGunnerMode = true
+MinRotationRoll = -60
+MaxRotationRoll = 60
+
+AddPartNozzle =  4.77, 3.34, -13.32, -1,0,0
+AddPartNozzle = -4.77, 3.34, -13.32, -1,0,0

@@ -1,0 +1,53 @@
+DisplayName = GBU-31 2000lb Bomb [GPS]
+Type = ASmissile
+Power = 0
+Acceleration = 0.5
+Explosion = 45
+explosionblock=45
+Flaming = false
+Sight = MoveSight
+Delay = 10
+round=16
+reloadtime = 10
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = gbu-31
+Accuracy = 0
+DisableSmoke = True
+
+DisplayMortarDistance = true
+
+EnableOffAxis = true
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+MaxAmmo = 16
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+Maxlockonrange = 300
+EnableOffAxis = false
+LockTime = 1
+TurningFactor = 0.03
+IsGPSMissile = true
+MaxDegreeOfMissile = 180
+RigidityTime = 0
+SpeedDependsAircraft =true
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 1
+ExplosionDamageVsShip=5
+enableChunkLoader = true

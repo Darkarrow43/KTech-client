@@ -1,0 +1,73 @@
+DisplayName = R-27ER [SARH-AAM]
+Type = AAMissile
+ModelBullet = R-27ER
+Power = 250
+Acceleration = 1.0
+Explosion = 4
+Explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 8
+ReloadTime = 10
+Group = MainGun
+Round = 2
+LockTime = 0
+TimeFuse = 300
+ProximityFuseDist = 10
+DamageFactor = heli, 0.7
+Sound = AA11_F
+SoundVolume = 10
+RigidityTime = 0
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+numLockedChaffMax = 1
+ChaffDiversionChance = 0.45
+CountermeasureScanInterval = 5
+CountermeasureRange = 84
+CountermeasureEffectiveTime = 90
+MaxLockOnRange = 850
+turningFactor = 0.18
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+
+LockMinHeight = 60
+EnableOffAxis = false
+
+enableBVR=true
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+SpeedFactor = 0.1
+SpeedFactorStartTick = 5
+SpeedFactorEndTick = 35
+
+dragInAir = 0.007
+
+SpeedDependsAircraft = true
+pdHDNMaxDegreeLockOutCount = 1
+scanInterval=1
+
+crosstype=4
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=0.1
+ExplosionDamageVsTank=0.1
+ExplosionDamageVsPlane=0.1
+ExplosionDamageVsHeli=0.1
+ExplosionDamageVsVehicle=0.1
+ExplosionDamageVsShip=0.1
+
+SemiActiveRadar = true
+EnableHMS = true
+MinRangeBVR = 50
+
+ProximityFuseDist = 12
+proximityFuseTick = 16
+proximityFuseDamage = 275
+proximityFuseHeight = 8
+ExplosionAirburst = 3
+
+MaxLockOnAngle = 20
+MaxDegreeOfMissile = 35
+predictTargetPos=false

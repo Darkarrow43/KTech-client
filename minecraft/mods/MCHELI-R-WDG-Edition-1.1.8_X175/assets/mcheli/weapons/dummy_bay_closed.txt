@@ -1,0 +1,6 @@
+DisplayName = Bay Closed
+Type = Dummy
+canBeIntercepted=false
+canBeIntercepted=false
+Explosion = 0
+Explosionblock = 0

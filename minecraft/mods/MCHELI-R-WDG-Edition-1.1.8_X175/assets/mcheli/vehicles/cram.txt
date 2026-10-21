@@ -1,0 +1,57 @@
+DisplayName = CENTURION C-RAM
+AddDisplayName = zh_CN, CENTURION C-RAM
+AddDisplayName = en_US, CENTURION C-RAM
+MaxHp = 200
+
+Category = 4.5
+ItemID = 28600
+HUD = aa
+ThirdPersonDist = 8
+MinRotationPitch = -85
+MaxRotationPitch = 10
+
+CameraPosition = 0.0, 4.4, 0.0
+CameraZoom = 3
+EnableNightVision = true
+EnableEntityRadar = true
+AddGunnerSeat = 0.00, 1.52, 0.00,  0.0, 1.314,-1.56, true
+hasAARadar = true
+ArmorMinDamage = 5
+BoundingBox = 0.0, 2.5, 0.0,  2.0, 4.6
+
+RadarType = MODREN_AA
+NameOnAdvancedAARadar = CIWS
+NameOnModernAARadar = CIWS
+NameOnEarlyAARadar = CIWS
+NameOnModernASRadar = CIWS
+NameOnEarlyASRadar = CIWS
+
+enablerwr = false
+
+EnableRadar = true
+EnableBVR = true
+RadarScanElevationDeg = 90
+RadarFollowTurretYaw = true
+RadarElevationReference = HORIZON
+RadarPanelFillAlpha = 0.075
+RadarElevationCoverage = FULL
+RadarScanAzimuthDeg = 360
+RadarScanTick = 10
+RadarContactHoldTick = 120
+RadarMaxTargetRange = 350
+RadarSearchType = TWS
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 5
+RadarDetectChanceBase = 0.95
+RadarTrackAzimuthDeg = 360
+RadarTrackElevationDeg = 90
+RadarGainFactor = 1.60, 0.65
+NameOnRWR = CIWS
+
+;Weapons
+AddTurretWeapon = ac_cram_m61a1,  0.00, 3.134, 0.54,   0, 0,   true,1, 0,-360,360, -80, 25
+
+HideEntity = true
+AddPart = true, true, false, 0,   0, 1.564, 0.0
+AddPart = false,true, true,  0,   0, 3.514, 0.0
+AddChildPart = true, false,false, 1,   0, 3.134, 0.0

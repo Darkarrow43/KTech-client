@@ -1,0 +1,14 @@
+DisplayName = Gunner Mark
+Type = TargetingPod
+Sight = None
+Delay = 100
+Sound = SCAN
+Length = 200
+Radius = 45
+Target = planes/helicopters/vehicles/players
+MarkTime = 8
+canBeIntercepted=false
+
+Item = 1, iron_ingot
+Explosion = 0
+Explosionblock = 0

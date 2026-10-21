@@ -1,0 +1,15 @@
+{
+  "recipes": [
+    {
+      "name": "waffles.waffle",
+      "inputItem": [
+        ["item","minecraft:wheat"]
+      ],
+      "outputItem": [
+        ["single",["minecraft:bread"]]
+      ],
+      "duration": 0,
+      "power": 0
+    }
+  ]
+}

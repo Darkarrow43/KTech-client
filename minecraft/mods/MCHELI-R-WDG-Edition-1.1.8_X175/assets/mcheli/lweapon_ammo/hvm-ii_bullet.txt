@@ -1,0 +1,6 @@
+DisplayName=HVM-II Missile
+AddDisplayName=zh_CN,HVM-II 导弹弹药
+ItemID=28942
+StackSize=2
+TextureName=hvm-ii_bullet
+AddRecipe=" R "," I "," G ",G,gunpowder,I,iron_ingot,R,redstone

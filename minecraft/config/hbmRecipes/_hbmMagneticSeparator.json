@@ -1,0 +1,70 @@
+{
+  "recipes": [
+    {
+      "name": "magsep.iron",
+      "inputItem": [
+        ["item","hbm:item.powder_iron"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_iron"]],
+        ["single",["hbm:item.dust"]]
+      ],
+      "outputFluid": [
+        ["SPENTSTEAM",250]
+      ],
+      "duration": 200,
+      "power": 1000
+    },
+    {
+      "name": "magsep.genomeSample",
+      "inputItem": [
+        ["nbt","hbm:item.vial",1,0,"{type:31s,fill:100s}"]
+      ],
+      "inputFluid": [
+        ["HEPARIN",100]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.vial",1,0,"{type:253s,fill:100s,gsvalue:\"01234567\",gsample:\"severity\"}"]],
+        ["single",["hbm:item.vial",1,0,"{type:253s,fill:100s,gsvalue:\"89ABCDEF\",gsample:\"resistance\"}"]],
+        ["single",["hbm:item.vial",1,0,"{type:253s,fill:100s,gsvalue:\"01234567\",gsample:\"transmission\"}"]],
+        ["single",["hbm:item.vial",1,0,"{type:253s,fill:100s,gsvalue:\"0.05\",gsample:\"mutationRate\"}"]],
+        ["single",["hbm:item.vial",1,0,"{type:253s,fill:100s,gsvalue:\"0.2\",gsample:\"antigenMutability\"}"]],
+        ["single",["hbm:item.vial",1,0,"{type:253s,fill:100s,gsvalue:\"144000\",gsample:\"incubation\"}"]]
+      ],
+      "duration": 100,
+      "power": 1000
+    },
+    {
+      "name": "magsep.certusShards",
+      "inputItem": [
+        ["item","hbm:item.certus_shard_smoky"]
+      ],
+      "inputFluid": [
+        ["FERROFLUID",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.nugget_technetium"]],
+        ["single",["minecraft:quartz",2]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "magsep.certicVapors",
+      "inputFluid": [
+        ["CERTIC_VAPORS",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_certus_quartz"]]
+      ],
+      "outputFluid": [
+        ["AIR",1000]
+      ],
+      "duration": 200,
+      "power": 500
+    }
+  ]
+}

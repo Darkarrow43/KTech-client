@@ -1,0 +1,47 @@
+DisplayName = BLU-97/B CEM Bomblet
+Type = Bomb
+Power = 65
+Acceleration = 0.1
+Explosion = 5
+ExplosionBLOCK = 5
+Flaming = false
+Sight = MoveSight
+Delay = 10
+Round = 1
+ReloadTime = 10
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = bomblet
+Accuracy = 0
+DisableSmoke = true
+DisplayMortarDistance = false
+DisableDestroyBlock = true
+EffectYield = 1
+EnableOffAxis = false
+
+DamageFactor = player, 1.0
+DamageFactor = living, 1.0
+DamageFactor = plane, 0.8
+DamageFactor = heli, 0.8
+DamageFactor = vehicle, 1.25
+DamageFactor = tank, 1.0
+DamageFactor = ship, 0.5
+
+ExplosionDamageVsLiving = 2
+ExplosionDamageVsPlayer = 2
+ExplosionDamageVsTank = 2
+ExplosionDamageVsPlane = 1
+ExplosionDamageVsHeli = 1
+ExplosionDamageVsVehicle = 2
+ExplosionDamageVsShip = 1
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 1, iron_ingot
+Item = 1, gunpowder
+Item = 1, redstone
+
+SpeedDependsAircraft = false
+EnableChunkLoader = false
+Gravity = -0.065

@@ -1,0 +1,60 @@
+DisplayName = AKD88 [GPS / IR Dual-Mode]terminal
+Type = ATmissile
+Power = 1000
+Acceleration = 0.2
+Explosion = 15
+explosionblock = 15
+Flaming = false
+Sight = MoveSight
+Delay = 10
+round=2
+reloadtime = 10
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = AKD88
+Accuracy = 0
+DisableSmoke = True
+
+DisplayMortarDistance = true
+
+effectyield = 3
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle , 1
+DamageFactor = tank, 2
+turningFactor = 0.07
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+EnableOffAxis = false
+LockTime = 1
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 3
+ExplosionDamageVsShip=7
+SpeedFactor = 0.05
+SpeedFactorStartTick = 10
+SpeedFactorEndTick = 50
+
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+FlareDiversionChance = 0.12
+MaxLockOnRange = 140
+EnableOffAxis = false
+MaxDegreeOfMissile = 60
+ActiveRadar = true
+SpeedDependsAircraft = false
+enableChunkLoader = true

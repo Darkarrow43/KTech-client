@@ -1,0 +1,59 @@
+DisplayName = KH36-E1 [GPS / IR-AGM]
+Type = ASmissile
+Power = 0
+Acceleration = 0.1
+Explosion = 15
+Explosionblock=15
+Flaming = false
+Sight = MoveSight
+ModelBullet = KH36
+Sound = missile_11_snd
+Delay = 50
+ReloadTime = 1
+Round = 2
+
+DisplayMortarDistance = true
+EnableOffAxis = true
+
+LockTime = 1
+TurningFactor = 0.04
+IsGPSMissile = true
+MaxDegreeOfMissile = 270
+RigidityTime = 0
+
+Maxlockonrange = 700
+ModelBomblet = KH36
+
+DisplayMortarDistance = true
+DisableDestroyBlock=true
+effectYield=2
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+SpeedFactor = 0.06
+SpeedFactorStartTick = 10
+SpeedFactorEndTick = 50
+SpeedDependsAircraft =true
+
+crosstype=12
+ExplosionDamageVsLiving=2
+ExplosionDamageVsPlayer=2
+ExplosionDamageVsTank=6
+ExplosionDamageVsPlane=3
+ExplosionDamageVsHeli=3
+ExplosionDamageVsVehicle=1
+ExplosionDamageVsShip=4
+
+DestructAfterSpawnBullet=true
+SpawnBulletInAir = true
+ModelBomblet = iragm_su34_kh36_term
+BombletDiff = 0
+SpawnBulletMaxNum = 1
+SpawnBulletIntervalTick = 80
+SpawnBulletPerNum=1
+SpawnBulletInheritSpeed = true

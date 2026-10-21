@@ -1,0 +1,218 @@
+DisplayName = J-20
+AddDisplayName = zh_CN,歼-20
+AddDisplayName = en_US,J-20
+MaxHp = 400
+
+Category = 5.0
+HUD = jet, jet_gunner
+ThirdPersonDist = 25
+Speed = 1.4
+MobilityPitch = 1.0
+MobilityRoll = 1
+MobilityYaw = 0.30
+ThrottleUpDown = 0.51
+SoundVolume = 10
+Sound = jet7_idle
+
+Gravity = -0.038
+motionfactor = 0.965
+MaxFuel = 1080
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.0, 0.0, 0
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.00,  2.05,  1.9
+
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_RED, 0.8534, 1.89, -13.58, -1, 0, 0, 0, 2
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_RED, -0.8534, 1.89, -13.58, -1, 0, 0, 0, 2
+
+AddPartWeaponBay = arhaam_j20_pl16,  1.15,  0.9143, -4.329,  0.000, 0.000, 1.000, 130
+AddPartWeaponBay = arhaam_j20_pl16,  -1.15, 0.9143, -4.329,  0.000, 0.000, 1.000, -130
+AddPartWeaponBay = iraam_j20_pl10,  1.82,  1.821, -3.39,  0.000, 0.000, 1.000, 80
+AddPartWeaponBay = iraam_j20_pl10,  -1.82, 1.821, -3.39,  0.000, 0.000, 1.000, -80
+
+ArmorMinDamage = 12
+DamageFactor = 0
+engineShutdownThreshold = 10
+explosionsizebycrash = 4
+
+BoundingBox = 0, 2, 4.5, 1.5, 1.5, 2.5, 1, DEFAULT, NOSE
+BoundingBox = 0, 2.4, 1.8, 1.5, 2.5, 3, 1.5, DEFAULT, COCKPIT
+BoundingBox = 0, 2.1, -5.7, 4, 2, 12, 1, DEFAULT, FUSELAGE
+BoundingBox = 0, 2.1, -13.3, 4, 2, 3, 1.5, DEFAULT, ENGINE
+BoundingBox = 4.5, 2, -11, 5.5, 0.2, 4, 0.8, DEFAULT, WING
+BoundingBox = -4.5, 2, -11, 5.5, 0.2, 4, 0.8, DEFAULT, WING
+
+EntityWidth = 0.75
+EntityHeight = 0.75
+
+FlareType = 1
+FlareCapacity = 24
+FlareReleaseCooldown = 6
+HasChaff = true
+ChaffCapacity = 24
+ChaffReleaseCooldown = 5
+hasecmJammer = true
+ecmJammerType = 0
+ecmJammerUseTime = 100
+ecmJammerWaitTime = 600
+ecmJammerRange = 375
+
+RadarType = MODERN_AA
+NameOnModernAARadar = J20
+NameOnEarlyAARadar = J20
+NameOnModernASRadar = J20
+NameOnEarlyASRadar = J20
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = true
+
+RadarSearchType = MULTI_TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = FULL
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 140
+RadarScanElevationDeg = 140
+RadarTrackAzimuthDeg = 140
+RadarTrackElevationDeg = 140
+
+RadarMaxTargetRange = 1400
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 10
+
+RadarScanTick = 8
+RadarContactHoldTick = 100
+RadarDetectChanceBase = 0.95
+RadarGainFactor = 1.55, 0.58
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = J20
+
+RadarRCSFactor = 0.035, 0.28, 0.10, 0.48
+
+EnableHMS = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddPartwing = 0.00, 3.542, -4.496,  -1,0,0,  -20
+AddPartLG = 0.00,  0.959,  -0.7694,    -1, 0, 0,  92
+AddPartLGRev = 0.00,  0.954,  -0.8988,    1, 0, 0,  30
+AddPartLGRev = 0.2431,  1.058,  0.6256,    0.011, 0.05, 1.0,  90
+
+AddPartLG = 0,  -0.1,  0,    0, 0, 1.0,  53
+AddPartLGRev = 1.951,  1.954,  -7.739,    0, 0, 1,  55
+AddPartLGRev = 1.570,  1.229,  -6.350,    0, 0, 1,  -110
+
+AddPartLG = 0,  -0.1,  0,    0, 0, 1.0,  -53
+AddPartLGRev = -1.951,  1.954,  -7.739,    0, 0, 1,  -55
+AddPartLGRev = -1.570,  1.229,  -6.350,    0, 0, 1, 110
+
+AddPartSteeringWheel = 2.293,  2.347,  -13.82,  0.0, 1.0, 0,   -25
+AddPartSteeringWheel = -2.293,  2.347,  -13.82,  0.0, 1.0, 0,   -25
+AddPartSteeringWheel = 3.772,2.119,-12.87, 1, 0, 0.0,   -7
+AddPartSteeringWheel = -3.772,2.119,-12.87, 1, 0, 0.0,   7
+AddPartSteeringWheel = -0.3570,2.507,2.138, 0, 0, 1,   -15
+
+AddPartThrottle = 1.946, 2.521, -2.177,  1,0,0.00, -8
+AddPartThrottle = -1.946, 2.521, -2.177,  1,0,0.00, -8
+AddPartThrottle = 0.3964, 2.485, 2.192,  1,0,0.00, 40
+
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+AddPartThrottle = 0.5545, 1.896, 2.127,  1,0,0.00, 40
+
+AddPartThrottle = 0.8675,2.4944,-14.4554,0.2971,-0.0863,-0.0011,8
+AddPartThrottle = 1.1647,2.408,-14.4565,0.2196,-0.2254,-0.0028,8
+AddPartThrottle = 1.3843,2.1827,-14.4593,0.075,-0.3057,-0.0038,8
+AddPartThrottle = 1.3672,1.5691,-14.4671,0.0921,0.3078,0.0039,-8
+AddPartThrottle = 1.1419,1.3536,-14.4698,0.2252,0.2155,0.0027,-8
+AddPartThrottle = 0.8405,1.279,-14.4707,0.3015,0.0747,0.0009,-8
+AddPartThrottle = 0.5399,1.3685,-14.4696,0.3006,-0.0895,-0.0011,-8
+AddPartThrottle = 0.3256,1.5974,-14.4667,0.2143,-0.2289,-0.0029,-8
+AddPartThrottle = 0.2529,1.8985,-14.4629,0.0727,-0.3011,-0.0038,-8
+AddPartThrottle = 0.3403,2.2038,-14.4591,-0.0874,-0.3054,-0.0038,-8
+AddPartThrottle = 0.3403,2.2038,-14.4591,0.226,0.2176,0.0027,8
+AddPartThrottle = 0.5664,2.4214,-14.4563,0.3012,0.073,0.0009,8
+
+AddPartThrottle = 0.7334,2.4452,-14.4311,0.2485,0.0,0.0,8
+AddPartThrottle = 1.2423,2.3088,-14.4311,-0.2152,0.1242,0.0,-8
+AddPartThrottle = 1.3997,2.0605,-14.4311,-0.1242,0.2152,0.0,-8
+AddPartThrottle = 1.4119,1.7667,-14.4311,-0.0,0.2485,0.0,-8
+AddPartThrottle = 1.2755,1.5062,-14.4311,0.1242,0.2152,0.0,-8
+AddPartThrottle = 1.0271,1.3488,-14.4311,0.2152,0.1242,0.0,-8
+AddPartThrottle = 0.7334,1.3367,-14.4311,0.2485,0.0,0.0,-8
+AddPartThrottle = 0.6881,1.3488,-14.4311,-0.2152,0.1242,0.0,8
+AddPartThrottle = 0.4398,1.5062,-14.4311,-0.1242,0.2152,0.0,8
+AddPartThrottle = 0.3034,1.7667,-14.4311,0.0,0.2485,0.0,8
+AddPartThrottle = 0.3155,2.0605,-14.4311,0.1242,0.2152,0.0,8
+AddPartThrottle = 0.4729,2.3088,-14.4311,0.2152,0.1242,0.0,8
+
+AddPartThrottle = -0.8483,2.4944,-14.4554,0.2971,-0.0863,-0.0011,8
+AddPartThrottle = -0.5511,2.408,-14.4565,0.2196,-0.2254,-0.0028,8
+AddPartThrottle = -0.3315,2.1827,-14.4593,0.075,-0.3057,-0.0038,8
+AddPartThrottle = -0.3486,1.5691,-14.4671,0.0921,0.3078,0.0039,-8
+AddPartThrottle = -0.5739,1.3536,-14.4698,0.2252,0.2155,0.0027,-8
+AddPartThrottle = -0.8753,1.279,-14.4707,0.3015,0.0747,0.0009,-8
+AddPartThrottle = -1.1759,1.3685,-14.4696,0.3006,-0.0895,-0.0011,-8
+AddPartThrottle = -1.3902,1.5974,-14.4667,0.2143,-0.2289,-0.0029,-8
+AddPartThrottle = -1.4629,1.8985,-14.4629,0.0727,-0.3011,-0.0038,-8
+AddPartThrottle = -1.3755,2.2038,-14.4591,-0.0874,-0.3054,-0.0038,-8
+AddPartThrottle = -1.3755,2.2038,-14.4591,0.226,0.2176,0.0027,8
+AddPartThrottle = -1.1494,2.4214,-14.4563,0.3012,0.073,0.0009,8
+AddPartThrottle = -0.9824,2.4452,-14.4311,0.2485,0.0,0.0,8
+AddPartThrottle = -0.4735,2.3088,-14.4311,-0.2152,0.1242,0.0,-8
+AddPartThrottle = -0.3161,2.0605,-14.4311,-0.1242,0.2152,0.0,-8
+AddPartThrottle = -0.3039,1.7667,-14.4311,-0.0,0.2485,0.0,-8
+AddPartThrottle = -0.4403,1.5062,-14.4311,0.1242,0.2152,0.0,-8
+AddPartThrottle = -0.6887,1.3488,-14.4311,0.2152,0.1242,0.0,-8
+AddPartThrottle = -0.9824,1.3367,-14.4311,0.2485,0.0,0.0,-8
+AddPartThrottle = -1.0277,1.3488,-14.4311,-0.2152,0.1242,0.0,8
+AddPartThrottle = -1.2760,1.5062,-14.4311,-0.1242,0.2152,0.0,8
+AddPartThrottle = -1.4124,1.7667,-14.4311,0.0,0.2485,0.0,8
+AddPartThrottle = -1.4003,2.0605,-14.4311,0.1242,0.2152,0.0,8
+AddPartThrottle = -1.2429,2.3088,-14.4311,0.2152,0.1242,0.0,8
+
+AddPartCanopy = 0.00, 3.0527, -0.6146,  -1,0,0,  50
+
+AddPartWeaponMissile = iraam_j20_pl10,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = iraam_j20_pl10,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_j20_pl16,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_j20_pl16,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_j20_pl16,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_j20_pl16,   false, false, false,  -0.297,  0.518, -8.699
+
+AddWeapon = dummy_bay_closed,     6.232,  1.758, -7.699,  0,0.0
+AddWeapon = arhaam_j20_pl16,     0.5,  1.758, -7.699,  0,0.0
+AddWeapon = arhaam_j20_pl16,     1.0,  1.758, -7.699,  0,0.0
+AddWeapon = arhaam_j20_pl16,     -0.5,  1.758, -7.699,  0,0.0
+AddWeapon = arhaam_j20_pl16,     -1.0,  1.758, -7.699,  0,0.0
+AddWeapon = iraam_j20_pl10,     6.232,  1.758, -7.699,  0,-0
+AddWeapon = iraam_j20_pl10,     -6.232,  1.758, -7.699,  0,-0
+
+weapongrouptype = 6

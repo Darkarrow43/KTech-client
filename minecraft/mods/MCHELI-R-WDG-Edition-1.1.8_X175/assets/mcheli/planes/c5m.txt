@@ -1,0 +1,409 @@
+DisplayName = C5M Super Galaxy
+MaxHp = 600
+Speed = 0.85
+Sound = c5m
+ThrottleUpDown = 0.3
+MaxFuel         = 2500
+FuelConsumption = 1
+InventorySize = 64
+FlareType = 2
+FlareCapacity = 24
+FlareReleaseCooldown = 8
+HasChaff = true
+ChaffCapacity = 32
+ChaffReleaseCooldown = 6
+EnableNightVision = true
+EnableEntityRadar = true
+ThirdPersonDist = 68
+RotorSpeed = 200.0
+Soundvolume = 10
+Category = 3.5
+HUD = jet,jet
+
+ArmorMinDamage = 15
+MobilityRoll = 0.1
+MobilityYaw = 0.1	
+MobilityPitch = 0.1
+MinRotationRoll = -30
+MaxRotationRoll = 30
+
+AddSeat = 0.62, 6.8, 2.4
+AddSeat = -0.62, 6.8, 2.4
+
+RadarType = EARLY_AS
+NameOnModernAARadar = C5
+NameOnEarlyAARadar = C5
+NameOnModernASRadar = C5
+NameOnEarlyASRadar = C5
+
+enablerwr = true
+EnableRadar = false
+EnableBVR = false
+RadarScanElevationDeg = 60
+RadarFollowTurretYaw = false
+RadarElevationReference = AIRCRAFT
+RadarPanelFillAlpha = 0.075
+RadarElevationCoverage = FULL
+RadarScanAzimuthDeg = 100
+RadarScanTick = 30
+RadarContactHoldTick = 60
+RadarMaxTargetRange = 400
+RadarSearchType = SRC
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 10
+RadarDetectChanceBase = 0.60
+RadarTrackAzimuthDeg = 80
+RadarTrackElevationDeg = 50
+RadarGainFactor = 1.10, 0.25
+NameOnRWR = C5
+
+AddPartRotor = 11.9983, 4.1816, -18.57,   0,0,-1
+AddBlade = 1, 0, 11.9983, 4.1816, -18.57, 0,0,-1
+AddPartRotor = -11.9983, 4.1816, -18.57,   0,0,1
+AddBlade = 1, 0, -11.9983, 4.1816, -18.57, 0,0,1
+AddPartRotor = 18.5798, 3.4242, -18.57,   0,0,-1
+AddBlade = 1, 0, 18.5798, 3.4242, -18.57, 0,0,-1
+AddPartRotor = -18.5798, 3.4242, -18.57,   0,0,1
+AddBlade = 1, 0, -18.5798, 3.4242, -18.57, 0,0,1
+
+AddPartWing = 0.0, 6.51, 0.0,  -1,0,0, 75
+AddPartWing = 0.0, 2.01, -1.619, 1,0,0, 20
+
+AddPartWing =  0.0,  1.81,  -34.9667, -1,0, 0, 20
+AddPartWing =  2.6949,  3.2005,-42.9397, 20.23, -122.73, 542.25, 120
+AddPartWing = -2.6949,  3.2005,-42.9397,-20.23, -122.73, 542.25, -120
+AddPartWing =  0.0,  -2.0,  -1.0, -1,0, 0, -48
+AddPartWing =  0.0,  -4.0,  -36.00, 1,0, 0, -39
+
+AddPartSlideRotLG = -0.8432, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+AddPartSlideRotLG = 0.8432, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+AddPartLG =  0.0, 1.4782, -2.7186, 1,0,0, 86.0
+AddPartLGHatch = 1.8911, 0.9169, 0.0, 0,0,1, -60
+AddPartLGHatch = -1.8911, 0.9169, 0.0, 0,0,-1, -60
+AddPartSlideRotLG = 0.0, 1.11, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+AddPartSlideRotLG = 0.0, 1.11, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+AddPartSlideRotLG = 0.0, 1.11, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+AddPartSlideRotLG = 0.0, 1.11, -0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+AddPartLGRev = -3.7442, 3.6430, 0.0, 0,0,1, -30
+AddPartLGRev = 3.7442, 3.6430, 0.0, 0,0,-1, -30
+
+AddPartSlideRotLG = 0.0, 1.131, 0.0, -3.337, 0.2079, -22.8, 0.0, -1.0, 0.0, -90
+AddPartSlideRotLG = -0.6442, 2.1464, 0.35, -3.337, 0.2079, -22.8, 0.0, -1.0, 0.0, -90.0
+AddPartSlideRotLG = -2, 1.131, 0.6, -3.337, 0.2079, -22.8, 0.0, -1.0, 0.0, -90.0
+AddPartSlideRotLG = 0.0, 1.131, 0.0, 3.337, 0.2079, -22.8, 0.0, 1.0, 0.0, -90
+AddPartSlideRotLG = 0.6442, 2.1464, 0.35, 3.337, 0.2079, -22.8, 0.0, 1.0, 0.0, -90.0
+AddPartSlideRotLG = -2, 1.131, 0.6, 3.337, 0.2079, -22.8, 0.0,  1.0, 0.0, -90.0
+AddPartSlideRotLG = 0.0, 1.131, 0.0, -3.337, 0.2079, -28.26, 0.0, -1.0, 0.0, -90
+AddPartSlideRotLG = -0.6442, 2.1464, 0.35, -3.337, 0.2079, -28.26, 0.0, -1.0, 0.0, -90.0
+AddPartSlideRotLG = -2, 1.131, 0.6, -3.337, 0.2079, -28.26, 0.0, -1.0, 0.0, -90.0
+AddPartSlideRotLG = 0.0, 1.131, 0.0, 3.337, 0.2079, -28.26, 0.0, 1.0, 0.0, -90
+AddPartSlideRotLG = 0.6442, 2.1464, 0.35, 3.337, 0.2079, -28.26, 0.0, 1.0, 0.0, -90.0
+AddPartSlideRotLG = -2, 1.131, 0.6, 3.337, 0.2079, -28.26, 0.0, 1.0, 0.0, -90.0
+AddPartSlideRotLG = 0.8432, 1.3, -1.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+AddPartSlideRotLG = -0.8432, 1.3, -1.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+BoundingBox =   0.00,  6.70,   0.89,   4.0, 3.5
+BoundingBox =   0.00,  6.70,  -3.36,   4.0, 3.5
+BoundingBox =   0.00,  6.70,  -7.65,   4.0, 3.5
+BoundingBox =   0.00,  6.70, -11.96,   4.0, 3.5
+BoundingBox =   0.00,  6.70, -17.24,   6.0, 4.0
+BoundingBox =   0.00,  6.70, -23.47,   6.0, 3.5
+BoundingBox =   0.00,  6.70, -28.77,   4.0, 3.5
+BoundingBox =   0.00,  6.70, -33.25,   4.0, 3.5
+BoundingBox =   0.00,  6.90, -37.74,   4.0, 3.5
+BoundingBox =   0.00,  7.10, -42.11,   4.0, 3.5
+BoundingBox =   0.00,  6.02, -46.82,   3.5, 6.0
+BoundingBox =   0.00,  6.70, -51.55,   3.5, 3.5
+BoundingBox =   0.00, 10.67, -55.11,   1.5, 10.0,  0.8
+BoundingBox =   0.00,  9.26, -57.14,   1.3, 6.5,   0.8
+BoundingBox =   0.00, 16.26, -57.14,   1.3, 6.5,   0.8
+BoundingBox =   0.00,  9.78, -59.23,   1.3, 6.0,   0.8
+BoundingBox =   0.00, 15.95, -59.23,   1.3, 6.0,   0.8
+BoundingBox =   0.00, 15.68, -61.31,   1.3, 6.0,   0.8
+BoundingBox =   0.00, 17.01, -63.43,   1.3, 3.0,   0.8
+BoundingBox =   0.00, 10.07, -52.81,   1.3, 3.0,   0.8
+
+BoundingBox =   0.00,  4.38,   5.60,   3.0, 3.0
+
+BoundingBox =   0.00,  3.67,   0.89,   6.0, 3.2
+BoundingBox =   0.00,  3.34,  -5.58,   6.5, 3.5
+BoundingBox =   0.00,  3.34, -12.62,   6.5, 3.5
+BoundingBox =   0.00,  3.34, -20.11,   6.5, 3.5
+BoundingBox =   0.00,  3.34, -27.02,   6.5, 3.5
+BoundingBox =   0.00,  3.34, -34.04,   6.5, 3.5
+BoundingBox =   0.00,  3.84, -41.27,   6.0, 3.0
+
+BoundingBox =   7.70,  7.20, -22.54,   9.0, 1.0
+BoundingBox =  -7.70,  7.20, -22.54,   9.0, 1.0
+BoundingBox =  16.63,  6.46, -25.40,   8.0, 0.8,  0.9
+BoundingBox = -16.63,  6.46, -25.40,   8.0, 0.8,  0.9
+BoundingBox =  24.14,  5.70, -28.27,   6.0, 0.6,  0.7
+BoundingBox = -24.14,  5.70, -28.27,   6.0, 0.6,  0.7
+BoundingBox =  30.53,  5.05, -30.91,   5.0, 0.5,  0.5
+BoundingBox = -30.53,  5.05, -30.91,   5.0, 0.5,  0.5
+
+BoundingBox =  12.03,  4.18, -15.06,   2.8, 2.8,  1.25
+BoundingBox = -12.03,  4.18, -15.06,   2.8, 2.8,  1.25
+BoundingBox =  12.03,  4.18, -18.23,   2.3, 2.3,  1.25
+BoundingBox = -12.03,  4.18, -18.23,   2.3, 2.3,  1.25
+BoundingBox =  12.03,  4.18, -20.97,   2.0, 2.0,  1.25
+BoundingBox = -12.03,  4.18, -20.97,   2.0, 2.0,  1.25
+
+BoundingBox =  18.60,  3.40, -18.68,   2.8, 2.8,  1.25
+BoundingBox = -18.60,  3.40, -18.68,   2.8, 2.8,  1.25
+BoundingBox =  18.60,  3.40, -21.92,   2.3, 2.3,  1.25
+BoundingBox = -18.60,  3.40, -21.92,   2.3, 2.3,  1.25
+BoundingBox =  18.60,  3.40, -24.70,   2.0, 2.0,  1.25
+BoundingBox = -18.60,  3.40, -24.70,   2.0, 2.0,  1.25
+
+; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
+
+AddRack = m1a2 / vt4a1 / m109 / 2c35 / m1a1 / t90m, 0.0, 2.40, -7,   0, 0, 17.0,   11,   20
+AddRack = m1a2 / vt4a1 / m109 / 2c35 / m1a1 / t90m, 0.0, 2.18,-28,   0, 0,-58.0,   11,   20
+
+AddRack = tos1m / m142, 0.0, 2.40, -10,   0, 0, 17.0,   11,   20
+AddRack = tos1m / m142, 0.0, 2.18,-25,   0, 0,-58.0,   11,   20
+
+AddRack = 2k22 / g1a4 / bmp2m / m2a3 / lav25 / zbd04a / mrap / spm3, 0, 2.20,  -6.0, 0, 0,  17, 11, 40, 0, 0
+AddRack = 2k22 / g1a4 / bmp2m / m2a3 / lav25 / zbd04a / mrap / spm3, 0, 2.20, -19.0, 0, 0, -58, 11, 40, 0, 0
+AddRack = 2k22 / g1a4 / bmp2m / m2a3 / lav25 / zbd04a / mrap / spm3, 0, 2.20, -31.0, 0, 0, -60, 11, 40, 0, 0
+
+AddRack = m1161itv / vdv, 0, 2.35,  -4.8, 0, 0,  17, 10, 40
+AddRack = m1161itv / vdv, 0, 2.40, -11.8, 0, 0,  17, 10, 40
+AddRack = m1161itv / vdv, 0, 2.25, -18.8, 0, 0, -58, 10, 40
+AddRack = m1161itv / vdv, 0, 2.20, -25.8, 0, 0, -58, 10, 40
+AddRack = m1161itv / vdv, 0, 2.20, -32.8, 0, 0, -58, 10, 40
+
+AddRack = container,   2.0, 2.1, -11.0,  0, 0,  17.0,   15,    20
+AddRack = container,  -2.0, 2.1, -11.0,  0, 0,  17.0,   15,    20
+AddRack = container,   2.0, 2.1, -12.5,  0, 0,  17.0,   15,    20
+AddRack = container,  -2.0, 2.1, -12.5,  0, 0,  17.0,   15,    20
+AddRack = container,   2.0, 2.1, -14.0,  0, 0,  17.0,   15,    20
+AddRack = container,  -2.0, 2.1, -14.0,  0, 0,  17.0,   15,    20
+AddRack = container,   2.0, 2.1, -31.0,  0, 0,  17.0,   15,    20
+AddRack = container,  -2.0, 2.1, -31.0,  0, 0,  17.0,   15,    20
+AddRack = container,   2.0, 2.1, -32.5,  0, 0,  17.0,   15,    20
+AddRack = container,  -2.0, 2.1, -32.5,  0, 0,  17.0,   15,    20
+AddRack = container,   2.0, 2.1, -34.0,  0, 0,  17.0,   15,    20
+AddRack = container,  -2.0, 2.1, -34.0,  0, 0,  17.0,   15,    20
+
+; ============================================================
+; ExclusionSeat setup
+; Allows multiple vehicles inside the SAME section.
+; Blocks vehicles from DIFFERENT sections at the same time.
+; ============================================================
+
+; Heavy tanks section 3-4 excludes TOS/M142 section 5-6
+ExclusionSeat = 3,5
+ExclusionSeat = 3,6
+ExclusionSeat = 4,5
+ExclusionSeat = 4,6
+
+; Heavy tanks section 3-4 excludes 2K22/light armor section 7-9
+ExclusionSeat = 3,7
+ExclusionSeat = 3,8
+ExclusionSeat = 3,9
+ExclusionSeat = 4,7
+ExclusionSeat = 4,8
+ExclusionSeat = 4,9
+
+; Heavy tanks section 3-4 excludes M1161/VDV section 10-14
+ExclusionSeat = 3,10
+ExclusionSeat = 3,11
+ExclusionSeat = 3,12
+ExclusionSeat = 3,13
+ExclusionSeat = 3,14
+ExclusionSeat = 4,10
+ExclusionSeat = 4,11
+ExclusionSeat = 4,12
+ExclusionSeat = 4,13
+ExclusionSeat = 4,14
+
+; Heavy tanks section 3-4 excludes container section 15-26
+ExclusionSeat = 3,15
+ExclusionSeat = 3,16
+ExclusionSeat = 3,17
+ExclusionSeat = 3,18
+ExclusionSeat = 3,19
+ExclusionSeat = 3,20
+ExclusionSeat = 3,21
+ExclusionSeat = 3,22
+ExclusionSeat = 3,23
+ExclusionSeat = 3,24
+ExclusionSeat = 3,25
+ExclusionSeat = 3,26
+ExclusionSeat = 4,15
+ExclusionSeat = 4,16
+ExclusionSeat = 4,17
+ExclusionSeat = 4,18
+ExclusionSeat = 4,19
+ExclusionSeat = 4,20
+ExclusionSeat = 4,21
+ExclusionSeat = 4,22
+ExclusionSeat = 4,23
+ExclusionSeat = 4,24
+ExclusionSeat = 4,25
+ExclusionSeat = 4,26
+
+; TOS/M142 section 5-6 excludes 2K22/light armor section 7-9
+ExclusionSeat = 5,7
+ExclusionSeat = 5,8
+ExclusionSeat = 5,9
+ExclusionSeat = 6,7
+ExclusionSeat = 6,8
+ExclusionSeat = 6,9
+
+; TOS/M142 section 5-6 excludes M1161/VDV section 10-14
+ExclusionSeat = 5,10
+ExclusionSeat = 5,11
+ExclusionSeat = 5,12
+ExclusionSeat = 5,13
+ExclusionSeat = 5,14
+ExclusionSeat = 6,10
+ExclusionSeat = 6,11
+ExclusionSeat = 6,12
+ExclusionSeat = 6,13
+ExclusionSeat = 6,14
+
+; TOS/M142 section 5-6 excludes container section 15-26
+ExclusionSeat = 5,15
+ExclusionSeat = 5,16
+ExclusionSeat = 5,17
+ExclusionSeat = 5,18
+ExclusionSeat = 5,19
+ExclusionSeat = 5,20
+ExclusionSeat = 5,21
+ExclusionSeat = 5,22
+ExclusionSeat = 5,23
+ExclusionSeat = 5,24
+ExclusionSeat = 5,25
+ExclusionSeat = 5,26
+ExclusionSeat = 6,15
+ExclusionSeat = 6,16
+ExclusionSeat = 6,17
+ExclusionSeat = 6,18
+ExclusionSeat = 6,19
+ExclusionSeat = 6,20
+ExclusionSeat = 6,21
+ExclusionSeat = 6,22
+ExclusionSeat = 6,23
+ExclusionSeat = 6,24
+ExclusionSeat = 6,25
+ExclusionSeat = 6,26
+
+; 2K22/light armor section 7-9 excludes M1161/VDV section 10-14
+ExclusionSeat = 7,10
+ExclusionSeat = 7,11
+ExclusionSeat = 7,12
+ExclusionSeat = 7,13
+ExclusionSeat = 7,14
+ExclusionSeat = 8,10
+ExclusionSeat = 8,11
+ExclusionSeat = 8,12
+ExclusionSeat = 8,13
+ExclusionSeat = 8,14
+ExclusionSeat = 9,10
+ExclusionSeat = 9,11
+ExclusionSeat = 9,12
+ExclusionSeat = 9,13
+ExclusionSeat = 9,14
+
+; 2K22/light armor section 7-9 excludes container section 15-26
+ExclusionSeat = 7,15
+ExclusionSeat = 7,16
+ExclusionSeat = 7,17
+ExclusionSeat = 7,18
+ExclusionSeat = 7,19
+ExclusionSeat = 7,20
+ExclusionSeat = 7,21
+ExclusionSeat = 7,22
+ExclusionSeat = 7,23
+ExclusionSeat = 7,24
+ExclusionSeat = 7,25
+ExclusionSeat = 7,26
+ExclusionSeat = 8,15
+ExclusionSeat = 8,16
+ExclusionSeat = 8,17
+ExclusionSeat = 8,18
+ExclusionSeat = 8,19
+ExclusionSeat = 8,20
+ExclusionSeat = 8,21
+ExclusionSeat = 8,22
+ExclusionSeat = 8,23
+ExclusionSeat = 8,24
+ExclusionSeat = 8,25
+ExclusionSeat = 8,26
+ExclusionSeat = 9,15
+ExclusionSeat = 9,16
+ExclusionSeat = 9,17
+ExclusionSeat = 9,18
+ExclusionSeat = 9,19
+ExclusionSeat = 9,20
+ExclusionSeat = 9,21
+ExclusionSeat = 9,22
+ExclusionSeat = 9,23
+ExclusionSeat = 9,24
+ExclusionSeat = 9,25
+ExclusionSeat = 9,26
+
+; M1161/VDV section 10-14 excludes container section 15-26
+ExclusionSeat = 10,15
+ExclusionSeat = 10,16
+ExclusionSeat = 10,17
+ExclusionSeat = 10,18
+ExclusionSeat = 10,19
+ExclusionSeat = 10,20
+ExclusionSeat = 10,21
+ExclusionSeat = 10,22
+ExclusionSeat = 10,23
+ExclusionSeat = 10,24
+ExclusionSeat = 10,25
+ExclusionSeat = 10,26
+ExclusionSeat = 11,15
+ExclusionSeat = 11,16
+ExclusionSeat = 11,17
+ExclusionSeat = 11,18
+ExclusionSeat = 11,19
+ExclusionSeat = 11,20
+ExclusionSeat = 11,21
+ExclusionSeat = 11,22
+ExclusionSeat = 11,23
+ExclusionSeat = 11,24
+ExclusionSeat = 11,25
+ExclusionSeat = 11,26
+ExclusionSeat = 12,15
+ExclusionSeat = 12,16
+ExclusionSeat = 12,17
+ExclusionSeat = 12,18
+ExclusionSeat = 12,19
+ExclusionSeat = 12,20
+ExclusionSeat = 12,21
+ExclusionSeat = 12,22
+ExclusionSeat = 12,23
+ExclusionSeat = 12,24
+ExclusionSeat = 12,25
+ExclusionSeat = 12,26
+ExclusionSeat = 13,15
+ExclusionSeat = 13,16
+ExclusionSeat = 13,17
+ExclusionSeat = 13,18
+ExclusionSeat = 13,19
+ExclusionSeat = 13,20
+ExclusionSeat = 13,21
+ExclusionSeat = 13,22
+ExclusionSeat = 13,23
+ExclusionSeat = 13,24
+ExclusionSeat = 13,25
+ExclusionSeat = 13,26
+ExclusionSeat = 14,15
+ExclusionSeat = 14,16
+ExclusionSeat = 14,17
+ExclusionSeat = 14,18
+ExclusionSeat = 14,19
+ExclusionSeat = 14,20
+ExclusionSeat = 14,21
+ExclusionSeat = 14,22
+ExclusionSeat = 14,23
+ExclusionSeat = 14,24
+ExclusionSeat = 14,25
+ExclusionSeat = 14,26

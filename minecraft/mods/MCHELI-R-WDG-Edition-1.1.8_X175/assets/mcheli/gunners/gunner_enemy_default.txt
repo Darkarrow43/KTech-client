@@ -1,0 +1,14 @@
+DisplayName=Gunner [Hostile]
+AddDisplayName=ja_JP,敵対 射撃手
+AddDisplayName=zh_CN,炮手[敌对]
+ItemName=gunner_enemy
+TargetType=enemy
+StupidGunner=false
+PrimaryColor=0xC0C000
+SecondaryColor=0x220000
+UseLayeredIcon=true
+AllowLeadForAirTarget=true
+StupidAttackSectorScaleGround=1.0
+EnableShortBurst=true
+ShortBurstFireTick=20
+ShortBurstRestTick=20

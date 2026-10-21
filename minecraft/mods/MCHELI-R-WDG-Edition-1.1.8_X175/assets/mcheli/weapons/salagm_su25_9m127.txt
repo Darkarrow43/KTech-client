@@ -1,0 +1,43 @@
+DisplayName = 9M127 [SALH]
+Type = TVMissile
+Power = 400
+Acceleration = 4
+Explosion = 5
+Explosionblock = 5
+Flaming = false
+Sight = MoveSight
+Delay = 5
+ModeNum = 2
+ModelBullet =agm114
+Sound =9K118_F
+ReloadTime = 10
+Round = 12
+Fixmode=1
+Locktime = 0
+TimeFuse = 100
+DamageFactor = plane, 0.7
+DamageFactor = heli, 0.7
+
+laserGuidance = true
+hasLaserGuidancePod = true
+
+DisableDestroyBlock=true
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+MaxAmmo = 12
+SuppliedNum = 2
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+crosstype=1
+enableoffaxis = false
+maxDegreeOfMissile = 90
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+ExplosionDamageVsShip=0.5
+enableExhaustFlare=false
+LockEntity=true

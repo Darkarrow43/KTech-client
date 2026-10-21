@@ -1,0 +1,152 @@
+DisplayName = SU-34M
+AddDisplayName = zh_CN,SU-34M é¸­å˜´å
+½
+AddDisplayName = en_US,SU-34M
+MaxHp = 400
+
+Category = 3.7
+HUD = jet, jet_gunner
+ThirdPersonDist = 25
+Speed = 0.9
+MobilityPitch = 0.7
+MobilityRoll = 0.8
+MobilityYaw = 0.7
+ThrottleUpDown = 0.4
+
+Gravity = -0.038
+motionfactor = 0.955
+MaxFuel = 1000
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.0, 0.627, -4.173
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.4767,  2.5,  -0.45
+AddGunnerSeat = -0.4767,  2.5, -0.45 , 0.0, 1.627, -4.173, true
+
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_BLUE, 1.34, 2.273, -16, -1, 0, 0, 0, 1
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_BLUE, -1.34, 2.273, -16, -1, 0, 0, 0, 1
+
+AddPartWeaponBay = ATKJET_SU34_GUNNER_GPSBOMB_SAP/ATKJET_SU34_GUNNER_GPSBOMB,  0, 2.352, -5.923,  1.000, 0.000, 0.000, 30
+
+ArmorMinDamage = 12
+DamageFactor = 0.0
+engineShutdownThreshold = 10
+explosionsizebycrash = 5
+
+BoundingBox = 0, 2.5, 4, 1.5, 1.5, 4, 1, DEFAULT, NOSE
+BoundingBox = 0, 2.9, 0, 1.5, 2.5, 4, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 2.5, -7, 5, 2, 10, 1.2, DEFAULT, FUSELAGE
+BoundingBox = 0, 2.5, -13.9, 5, 2, 4, 2.0, DEFAULT, ENGINE
+BoundingBox = 5, 3, -10, 5, 0.2, 5, 0.7, DEFAULT, WING
+BoundingBox = -5, 3, -10, 5, 0.2, 5, 0.7, DEFAULT, WING
+
+EntityWidth = 0.75
+EntityHeight = 0.75
+
+FlareType = 4
+FlareCapacity = 36
+FlareReleaseCooldown = 6
+HasChaff = true
+ChaffCapacity = 36
+ChaffReleaseCooldown = 5
+
+RadarType = MODERN_AA
+NameOnModernAARadar = S34
+NameOnEarlyAARadar = S34
+NameOnModernASRadar = S34
+NameOnEarlyASRadar = S34
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = true
+
+RadarSearchType = MULTI_TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = FULL
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 120
+RadarScanElevationDeg = 120
+RadarTrackAzimuthDeg = 120
+RadarTrackElevationDeg = 120
+
+RadarMaxTargetRange = 1050
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 5
+
+RadarScanTick = 12
+RadarContactHoldTick = 85
+RadarDetectChanceBase = 0.85
+RadarGainFactor = 1.35, 0.45
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = S34
+
+EnableHMS = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+;Parts
+AddPartLG = 0, 2.36, -1.816,  1,0,0,120
+AddPartLGRev = -0.0, 1.962, -0.1599,  1,0,0,-30
+AddPartLGRev = -0.4185, 2.266, -2.144,  0,0,1,-80
+AddPartLGRev = 0.4257, 2.266, -2.143,  0,0,1,80
+AddPartLGRev = -0.4836, 2.362, -3.839,  0,0,1,-100
+AddPartLGRev = 0.4934, 2.362, -3.839,  0,0,1,100
+
+AddPartLGScale = -2, 2.5, -9.623
+AddPartLGRev = -2.43, 2.673, -7.353,  0,0,1,-100
+AddPartLGRev = -2.40, 2.522, -9.258,  0,0,1,-85
+
+AddPartLGScale = 2, 2.5, -9.623
+AddPartLGRev = 2.446, 2.658, -7.346,  0,0,1,100
+AddPartLGRev = 2.423, 2.520, -9.257,  0,0,1,85
+
+AddPartSteeringWheel = 2.427, 2.880, -14.11, 0.0, -1.0, 0.337, 30
+AddPartSteeringWheel = -2.398, 2.880, -14.12, 0.0, -1.0, 0.337, 30
+AddPartSteeringWheel = 2.567,  2.904,  -11.31,   -4.4633, -0.0758, 1.9205,  25
+AddPartSteeringWheel = -2.545,  2.904,  -11.31,    4.4633, -0.0758, 1.9205,  25
+AddPartSteeringWheel = 2.10, 2.256,-14.99, 1, 0, 0.0,   -15
+AddPartSteeringWheel = -2.081, 2.256,-14.99,  -1, 0, 0.0,   -15
+AddPartSteeringWheel = 0.4856,2.838,-0.3173, 0, 0, 1,   -20
+AddPartSteeringWheel = 0.4736,2.841,-0.3173, 1, 0, 0,   -20
+
+AddPartwing = 0.00,  2.659,-4.721,  1,0, 0, 25
+AddPartLG = 0, 2.124, -0.1331,  1,0,0,45
+
+AddPartCanopy = 0.00, 4.089, -1.808,  -1,0,0,  40
+
+;Weapons
+AddPartWeaponMissile = iraam_su34_r73,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = iraam_su34_r73,   false, false, false,   -0.297,  0.518, -8.699
+AddPartWeaponMissile = sarhaam_su34_r27er,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = sarhaam_su34_r27er,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_su34_kh36_dual,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_su34_kh36_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_su34_fab3000,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_su34_fab3000,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_su34_fab3000,   false, false, false,   0.297,  0.518, -8.699
+
+AddWeapon = ac_su34_gsh30,  -1.214,  2.8,  -6,  -0.5,  0.0
+
+AddWeapon = iraam_su34_r73,   -6.87,  1.985, -8.499,  0.0,  0
+AddWeapon = iraam_su34_r73,    6.87,  1.985, -8.499,  0.0,  0
+AddWeapon = sarhaam_su34_r27er,    6.87,  1.985, -13,  0.0,  0
+AddWeapon = sarhaam_su34_r27er,   -6.87,  1.985, -13,  0.0,  0
+AddWeapon = gps_su34_kh36_dual,      5,  1.985, -13,  0.0,  0, true, 2
+AddWeapon = gps_su34_kh36_dual,      -5,  1.985, -13,  0.0,  0, true, 2
+AddWeapon = gps_su34_fab3000,     4,  1, -10,  0,0.0, true,2
+AddWeapon = gps_su34_fab3000,    -4,  1, -10,  0,0.0, true,2
+AddWeapon = gps_su34_fab3000,     0, 0.3, -10,  0,0.0, true,2
+
+AddTurretWeapon = AESA,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -70,10
+
+weapongrouptype = 16

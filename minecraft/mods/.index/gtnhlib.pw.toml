@@ -1,0 +1,21 @@
+filename = 'gtnhlib-0.11.54.jar'
+name = 'GTNH Lib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gtnhlib-0.11.54.jar'
+
+[download]
+hash = '98293359726681e0ff1341efd0934ceb84c284a4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9167090
+project-id = 688894
+
+[[x-prismlauncher-dependencies]]
+addonId = '826970'
+type = 'REQUIRED'

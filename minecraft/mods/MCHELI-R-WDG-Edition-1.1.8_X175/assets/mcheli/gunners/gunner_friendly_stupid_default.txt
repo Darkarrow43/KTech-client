@@ -1,0 +1,14 @@
+DisplayName=Gunner [Friendly][Stupid]
+AddDisplayName=ja_JP,対モンスター 射撃手[愚人]
+AddDisplayName=zh_CN,炮手[愚人][友好]
+ItemName=gunner_friendly_stupid
+TargetType=monster
+StupidGunner=true
+PrimaryColor=0xC0C000
+SecondaryColor=0xC00000
+UseLayeredIcon=false
+AllowLeadForAirTarget=true
+StupidAttackSectorScaleGround=1.3
+EnableShortBurst=false
+ShortBurstFireTick=14
+ShortBurstRestTick=10

@@ -1,0 +1,49 @@
+DisplayName = FPV Drone [RPG]
+AddDisplayName = zh_CN, 四轴无人机[RPG]
+AddDisplayName = en_US, FPV Drone
+MaxHp = 25
+
+Category = 4.0
+HUD = mav, heli_gnr
+Speed = 0.7
+MobilityPitch = 1000
+MobilityRoll = 1000
+MobilityYaw = 1000
+ThrottleUpDown = 100
+
+Sound = fpvdrone
+
+MaxFuel = 500
+FuelConsumption = 1
+
+CameraPosition = 0.00, 0.0, 0.0
+CameraRotationSpeed = 1000
+AddSeat = 0.00, 0.0, 0.0
+
+ParticlesScale = 0.1
+
+engineShutdownThreshold = 0
+explosionsizebycrash = 1
+BoundingBox = 0.0, 1.14,0.0,  2.0, 1.5
+
+RadarType = EARLY_AS
+NameOnModernAARadar = UAV
+NameOnEarlyAARadar = UAV
+NameOnModernASRadar = UAV
+NameOnEarlyASRadar = UAV
+enableRWR = false
+NameOnAdvancedAARadar = UAV
+
+;Parts
+AddRotor = 1, 0,  0.755, 1.67,  -0.751,  0.0,  1.0, 0.0
+AddRotor = 1, 0,  -0.755, 1.67,  -0.751,  0.0, -1.0, 0.0
+AddRotor = 1, 0,  0.755, 1.67,  0.751,  0.0,  1.0, 0.0
+AddRotor = 1, 0,  -0.755, 1.67,  0.751,  0.0, -1.0, 0.0
+
+;Weapons
+AddPartWeaponMissile = pg7v,   false,  false,  false,     1.72,  0.96, -1.64
+AddWeapon = PG7V,  0.00, 0.22, 0.0,  0.0, 0.0, true,1, 0,-0,0, -10, 70
+
+SmallUAV = true
+ThrottleUpDownOnEntity = 1000.0
+RotorSpeed = 1000.0

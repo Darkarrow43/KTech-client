@@ -1,0 +1,71 @@
+DisplayName = Ural 4320
+Category = 1.2
+MaxHp = 200
+Speed = 1.180556
+WheeledHandling = true
+WheeledAcceleration = 1.050
+WheeledTurnRadius = 9.50
+Sound = tank7_idle
+MinRotationPitch = -50
+MaxRotationPitch = 8
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 1
+CameraPosition = 0.5507, 2.1, 1.5
+CameraRotationSpeed = 35
+MaxFuel         = 1000
+FuelConsumption = 1
+StepHeight = 1.5
+DefaultFreelook = false
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+HideEntity = false
+ThirdPersonDist = 8
+
+SubmergedDamageHeight = 3
+
+HUD = m1161itv
+WeightType = Car
+
+WeightedCenterZ = 0
+
+SetWheelPos = 1.10, -0.32, 2.5692, -1.0354, -2.4799
+
+AddSeat =  0.5894, 1.0243, 1.2829
+AddSeat = -0.5894, 1.0243, 1.2829
+
+AddSeat =  0.6937, 1.4243, -0.4133
+AddSeat =  0.6937, 1.4243, -1.2566
+AddSeat =  0.6937, 1.4243, -2.3667
+AddSeat =  0.6937, 1.4243, -3.4582
+
+AddSeat =  -0.6937, 1.4243, -0.4133
+AddSeat =  -0.6937, 1.4243, -1.2566
+AddSeat =  -0.6937, 1.4243, -2.3667
+AddSeat =  -0.6937, 1.4243, -3.4582
+
+EnableBack = true
+AddPartHatch = 0.0485, 0.3247, -3.0983, 1, 0, 0, -105
+
+AddCrawlerTrack = false, 0.22, 0.0009, -0.3189/0.00, -0.3189/3.1569, 0.3813/4.0995, 0.9496/3.7747, 1.0990/3.4624, 1.1800/-3.6065, 0.9122/-4.0570, 0.4804/-4.0798, -0.3189/-3.1212
+TrackRollerRot = 25
+
+AddPartWheel = 1.0474, 0.2998, 2.5692, 30
+AddPartWheel = -0.9987, 0.2971, 2.5412, 30
+AddPartWheel = 0.0142, 0.3144, -1.0354
+AddPartWheel = 0.0142, 0.3144, -2.4799
+
+BoundingBox =  0, 1, 2.8, 2, 1.5, 1.5, 1.5, DEFAULT, ENGINE
+BoundingBox =  0, 1.5, 1.5, 2, 2, 1, 1.5, DEFAULT, CABIN
+BoundingBox =  0, 1.5, -1.5, 2.5, 2, 5, 0.5, DEFAULT, BACK
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+engineshutdownthres = 5
+
+NameOnModernAARadar = CAR
+NameOnEarlyAARadar = CAR
+NameOnModernASRadar = CAR
+NameOnEarlyASRadar = CAR

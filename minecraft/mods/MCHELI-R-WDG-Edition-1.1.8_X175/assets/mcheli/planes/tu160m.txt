@@ -1,0 +1,110 @@
+DisplayName = Tu-160M BLACKJACK
+AddDisplayName =  zh_CN, 图-160M �
+级海盗旗
+AddDisplayName =  en_US, TU-160M BLACKJACK
+Category = 4.0
+ItemID = 30714
+MaxHp = 550
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 0.9
+FlareType = 2
+FlareCapacity = 48
+FlareReleaseCooldown = 8
+VariableSweepWing = true
+MaxFuel         = 2000
+FuelConsumption = 1
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 45
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+AutoPilotRot = 0
+
+Sound = bone
+ArmorMinDamage = 25
+SmoothShading = true
+ThrottleUpDown = 0.3
+MobilityYaw = 0.3
+MobilityPitch = 0.2
+MobilityRoll = 0.2
+CameraPosition = 0.00, 3.5, 2.0
+HUD = jet, jet_gunner, jet_gunner, jet_gunner
+hasMaintenance=true
+MaintenceUsetime=20
+MaintenceWaittime=1200
+
+enablerwr = true
+HasChaff = true
+ChaffCapacity = 64
+ChaffReleaseCooldown = 6
+
+RadarType = ADVANCED_AS
+NameOnModernAARadar = T16
+NameOnEarlyAARadar = T16
+NameOnModernASRadar = T16
+NameOnEarlyASRadar = T16
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = false
+
+RadarSearchType = GMTI_TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = DOWN_ONLY
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 120
+RadarScanElevationDeg = 120
+RadarTrackAzimuthDeg = 120
+RadarTrackElevationDeg = 120
+
+RadarMaxTargetRange = 1050
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 5
+
+RadarScanTick = 20
+RadarContactHoldTick = 100
+RadarDetectChanceBase = 0.85
+RadarGainFactor = 1.40, 0.48
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = T16
+
+AddSeat = 0.66, 5.4,  5.76
+AddgunnerSeat = -0.66, 5.3,  5.76,true
+
+AddPartSteeringWheel =  0.0,9.65,-47.1,  1, 0, 0.0,   10
+AddPartSteeringWheel =  0.0,9.65,-47.1,  1, 0, 0.0,   -10
+
+AddPartLG =  0.00, 4.9,  0.0,  1,0,0, 90
+AddPartLG =  -1.08, 4.04,  -1.0,  0,0,1, 110
+AddPartLG =  1.08, 4.04,  -1.0,  0,0,-1, 110
+AddPartLG =  -3.8568, 4.2294,  -30.0,  0,0,1, 90
+AddPartLG =  3.8568, 4.2294,  -30.0,  0,0,-1, 90
+AddPartLGScale = 3.0242, 4.65, -30.0
+AddPartLGScale = -3.0242, 4.65, -30.0
+AddPartLG =  -1.4226, 4.0436,  -30.0,  0,0,-1, 90
+AddPartLG =  1.4226, 4.0436,  -30.0,  0,0,1, 90
+
+AddPartWing =  8.6423, 4.0, -19.9646,  0,1,0, 40
+AddPartWing =  -8.6423, 4.0, -19.9646,  0,-1,0, 40
+
+AddWeapon = dummy_bay_closed, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = gps_tu160m_kh101, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
+AddWeapon = gps_tu160m_kh101, 0.0, 4.0, -7.0, 0.0, 0.0, true, 2
+
+AddPartWeaponBay = gps_tu160m_kh101, -1.3338, 4.0209, -13.0, 0, 0, -1, 90
+AddPartWeaponBay = gps_tu160m_kh101, 1.3338, 4.0209, -13.0, 0, 0, 1, 90
+AddPartWeaponBay = gps_tu160m_kh101,-1.3, 4.228, -13.0, 0, 0, 1, -90
+AddPartWeaponBay = gps_tu160m_kh101, 1.3, 4.228, -13.0, 0, 0, 1, 90
+
+BoundingBox = 0, 5, 12, 2, 2, 5, 1, DEFAULT, NOSE
+BoundingBox = 0, 5.5, 5.6, 3, 3, 8, 1, DEFAULT, COCKPIT
+BoundingBox = 0, 5.5, -15.8, 7, 3, 35, 0.8, DEFAULT, FUSELAGE
+BoundingBox = 7, 5.0, -18, 7, 1, 10, 0.6, DEFAULT, WING
+BoundingBox = -7, 5.0, -18, 7, 1, 10, 0.6, DEFAULT, WING
+BoundingBox = 6, 4, -29.5, 5, 2.5, 13, 2.0, DEFAULT, ENGINE
+BoundingBox = -6, 4, -29.5, 5, 2.5, 13, 2.0, DEFAULT, ENGINE
+BoundingBox = 0, 6.5, -40.5, 4, 4, 15, 1.5, DEFAULT, TAIL

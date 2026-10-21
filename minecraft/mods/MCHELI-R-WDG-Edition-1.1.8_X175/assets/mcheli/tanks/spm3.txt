@@ -1,0 +1,64 @@
+DisplayName = SPM-3
+AddDisplayName = zh_CN, SPM-3 熊式装甲车
+AddDisplayName = en_US, SPM-3
+MaxHp = 350
+Category = 3.0
+
+HUD = m1161itv,mbt_gnr
+Speed = 1.250000
+WheeledHandling = true
+WheeledAcceleration = 1.650
+WheeledTurnRadius = 8.50
+MinRotationPitch = -85
+MaxRotationPitch = 10
+StepHeight = 1.5
+DefaultFreelook = true
+CameraPosition = 1.0, 2.6, 0.3
+
+Sound = tank7_idle
+Float = false
+
+Gravity = -0.1
+GravityInWater = -0.1
+MaxFuel = 1500
+FuelConsumption = 1
+
+CameraRotationSpeed = 50
+CameraZoom = 3
+EnableNightVision = true
+EnableEntityRadar = false
+AddSeat = 0.8969, 1.40, 0.4174
+AddGunnerSeat = -0.8969, 1.40, 0.4174,    -0.8032, 4,  -1.434,  false, -90, 90, true
+
+explosionsizebycrash = 3
+ArmorMinDamage = 10
+engineshutdownthres = 5
+Damagefactor = 0
+BoundingBox = 0.0, 0.8875,  2.572,   2.5, 2.5,  0.6
+BoundingBox = 0.0, 1.147,  -0.1272,   3.0, 3.0,  1
+BoundingBox = 0.0, 1.147,  -2.778,   2.5, 3.0,  1
+SubmergedDamageHeight = 2
+
+NameOnModernAARadar = CAR
+NameOnEarlyAARadar = CAR
+NameOnModernASRadar = CAR
+NameOnEarlyASRadar = CAR
+
+OnGroundPitchFactor = 0.9
+OnGroundRollFactor = 0.9
+
+;Parts
+SetWheelPos = 1.50, -0.21, 2.319, -2.011
+TrackRollerRot = 50
+AddTrackRoller = -1.499,  0.4311,  2.319
+AddTrackRoller = -1.541,  0.4311,  -2.011
+
+;Weapons
+AddPartWeapon = mg_t90m_kord,     false,  true,  false,   -0.8032,  0.649,    -1.334
+AddPartWeaponChild = false, true,  0.00, 3.611,  -1.434
+AddWeapon = mg_t90m_kord,   -0.8032, 3.611,  -1.434,   0.0, 0.0, false, 2, 0, -360,360, -40,10
+
+WeightType = Tank
+EnableBack = true
+WeightedCenterZ = 0.1
+HideEntity = true

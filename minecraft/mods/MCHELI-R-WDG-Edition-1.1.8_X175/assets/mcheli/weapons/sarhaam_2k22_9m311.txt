@@ -1,0 +1,66 @@
+DisplayName = 9M311 [SARH-AAM]
+Type = AAMissile
+ModelBullet = aim-7m
+Power = 250
+Acceleration = 1.5
+Explosion = 3
+Explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 20
+Reloadtime = 200
+
+Group = MainGun
+Round = 8
+LockTime = 5
+DamageFactor = heli, 0.8
+Damagefactor = tank, 0.1
+Sound = AA11_F
+RigidityTime = 0
+MaxAmmo = 8
+SuppliedNum = 2
+Gravity = 0
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+crosstype=4
+
+predictTargetPos = true
+turningFactor = 0.28
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+numLockedChaffMax = 1
+ChaffDiversionChance = 0.55
+CountermeasureScanInterval = 4
+CountermeasureRange = 80
+CountermeasureEffectiveTime = 90
+MaxLockOnRange = 500
+MaxDegreeOfMissile = 50
+PassiveRadar = true
+LockMinHeight = 20
+EnableOffAxis = false
+maxLockOnAngle = 20
+enableBVR = true
+WeaponSwitchSound = Switch_Jet_wWeapon_Missile
+SpeedFactor = 0.05
+SpeedFactorStartTick = 0
+SpeedFactorEndTick = 50
+SpeedDependsAircraft = true
+MinRangeBVR = 50
+enableChunkLoader = true
+
+ExplosionDamageVsLiving = 1
+ExplosionDamageVsPlayer = 0.1
+ExplosionDamageVsTank = 0.1
+ExplosionDamageVsPlane = 1
+ExplosionDamageVsHeli = 1
+ExplosionDamageVsVehicle = 0.1
+ExplosionDamageVsShip = 0.1
+
+crosstype=4
+
+ProximityFuseDist = 12
+proximityFuseTick = 16
+proximityFuseDamage = 275
+proximityFuseHeight = 8
+ExplosionAirburst = 3

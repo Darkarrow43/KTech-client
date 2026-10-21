@@ -1,0 +1,61 @@
+DisplayName = 9M133 [TV-ATGM]
+Type = TVMissile
+Power = 650
+Acceleration = 2
+Explosion = 4
+Explosionblock = 5
+Flaming = false
+Sight = MoveSight
+Delay = 50
+ModeNum = 2
+ModelBullet = 9m120
+Sound = sa-2_snd
+ReloadTime = 200
+Round = 4
+DamageFactor = player, 1
+DamageFactor = plane, 0.7
+DamageFactor = heli, 0.7
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+FixMode = 1
+maxDegreeOfMissile = 90
+
+
+RecoilPitch = 10
+RecoilYaw = 0.5
+RecoilPitchRange = 1
+RecoilYawRange = 1
+RecoilRecoverFactor = 0.2
+FlakParticlesCrack = 50
+NumParticlesFlak = 10
+FlakParticlesDiff = 0.3
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+
+crosstype=8
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=1
+ExplosionDamageVsPlane=1
+ExplosionDamageVsHeli=1
+ExplosionDamageVsVehicle=1
+DamageFactor = living, 1
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+DamageFactor = ship, 1.0
+ExplosionDamageVsShip=1
+
+SpeedDependsAircraft = true
+RigidityTime = 5
+LockEntity=true
+CameraFollowLockEntity = true
+
+laserGuidance = true
+hasLaserGuidancePod = true
+LockEntity=true

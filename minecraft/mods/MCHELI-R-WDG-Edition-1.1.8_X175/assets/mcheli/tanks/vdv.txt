@@ -1,0 +1,71 @@
+DisplayName = VDV BUGGY
+AddDisplayName = zh_CN, VDV BUGGY 越野车
+AddDisplayName = en_US, VDV BUGGY
+MaxHp = 150
+
+Category = 2.0
+HUD = m1161itv,none
+ThirdPersonDist = 10
+Speed = 1.902778
+WheeledHandling = true
+WheeledAcceleration = 3.750
+WheeledTurnRadius = 3.50
+MinRotationPitch = 0
+MaxRotationPitch = 0
+StepHeight = 1.5
+DefaultFreelook = false
+CameraPosition = 0.6, 1.9, -0.2
+
+Soundvolume = 10
+Sound = tank7_idle
+
+Gravity = -0.1
+GravityInWater = -0.5
+MaxFuel = 1200
+FuelConsumption = 1.0
+
+CameraRotationSpeed = 60
+CameraZoom = 2
+EnableNightVision = false
+AddSeat = 0.5738, 0.7884, -0.3106
+AddGunnerSeat = 0.00, 1.95, -1.51, 0.00, 3.15, -1.51, false, -40, 10, false
+AddSeat = -0.5738, 0.7884, -0.3106
+
+ArmorMinDamage = 4
+DamageFactor = 0.8
+BoundingBox = 0, 1, 1.5, 2, 1, 2, 1.5, DEFAULT, ENGINE
+BoundingBox = 0, 1.4, -1.4, 2, 1.8, 3.7, 0.5, DEFAULT, BODY
+EntityWidth = 0.9
+EntityHeight = 0.9
+
+NameOnModernAARadar = CAR
+NameOnEarlyAARadar = CAR
+NameOnModernASRadar = CAR
+NameOnEarlyASRadar = CAR
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor = 0.5
+
+;Parts
+SetWheelPos = 0.68,  -0.24,  1.20, -1.10
+
+;Weapons
+AddPartWeapon = mg_vdv_kord , false, true, false, 0.0, 2.31, -1.51, 0
+AddPartWeaponChild = false, true, 0.0, 2.56,-0.475, 0
+
+AddWeapon = mg_vdv_kord,   0.00, 2.47, -1.51,   0.0, 0.0, false, 2, 0, -360,360, -40,10
+
+AddWeapon = horn, 0, 1.79, 9.8,  0.0, 0.0, true,1, 0,-360,180, -30, 7
+
+EnableBack = true
+WeightType = Car
+WeightedCenterZ = 0.0
+PartWheelRot = 40
+AddPartWheel = -0.7199,  0.3204, 1.6699, 30
+AddPartWheel = 0.7199,  0.3204,  1.6699, 30
+AddPartWheel = -0.7199,  0.3204, -2.2437
+AddPartWheel = 0.7199,  0.3204,  -2.2437
+AddFixedSearchLight = 0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+AddFixedSearchLight = 0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = -0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0

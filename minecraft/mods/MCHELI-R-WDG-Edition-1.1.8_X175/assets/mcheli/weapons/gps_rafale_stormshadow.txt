@@ -1,0 +1,55 @@
+DisplayName = Storm Shadow [GPS]
+Type = ASmissile
+Power = 0
+Acceleration = 0.5
+Explosion = 25
+explosionblock=25
+Flaming = false
+Sight = MoveSight
+Delay = 30
+round=3
+reloadtime = 10
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = stormshadow
+Accuracy = 0
+DisableSmoke = True
+
+DisplayMortarDistance = true
+
+effectyield = 4
+
+EnableOffAxis = false
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+turningFactor = 0.04
+MaxAmmo = 3
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+Maxlockonrange = 1200
+EnableOffAxis = false
+LockTime = 1
+IsGPSMissile = true
+MaxDegreeOfMissile = 180
+RigidityTime = 0
+
+SpeedDependsAircraft = true
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 1
+ExplosionDamageVsShip=5
+enableChunkLoader = true

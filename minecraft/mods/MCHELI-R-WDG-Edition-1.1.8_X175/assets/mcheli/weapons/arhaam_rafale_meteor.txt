@@ -1,0 +1,69 @@
+DisplayName = Meteor [ARH-AAM]
+Type = AAMissile
+ModelBullet = meteor
+Power = 250
+Acceleration = 1.6
+Explosion = 3
+Explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 8
+ReloadTime = 10
+Group = MainGun
+Round = 2
+LockTime = 0
+TimeFuse = 300
+ProximityFuseDist = 10
+DamageFactor = heli, 0.7
+Sound = AA11_F
+SoundVolume = 10
+RigidityTime = 5
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+numLockedChaffMax = 8
+ChaffDiversionChance = 0.15
+CountermeasureScanInterval = 1
+CountermeasureRange = 50
+CountermeasureEffectiveTime = 55
+MaxLockOnRange = 1200
+TurningFactor = 0.21
+predictTargetPos=true
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+
+MaxLockOnAngle = 35
+LockMinHeight = 60
+EnableOffAxis = false
+MaxDegreeOfMissile = 42
+ActiveRadar = true
+enableBVR=true
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+SpeedFactor = 0.05
+SpeedFactorStartTick = 5
+SpeedFactorEndTick = 70
+SpeedDependsAircraft = true
+pdHDNMaxDegreeLockOutCount = 1
+ScanInterval = 4
+DisableSmoke = True
+
+crosstype=2
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=0.1
+ExplosionDamageVsTank=0.1
+ExplosionDamageVsPlane=0.1
+ExplosionDamageVsHeli=0.1
+ExplosionDamageVsVehicle=0.1
+ExplosionDamageVsShip=0.1
+
+
+ProximityFuseDist = 12
+proximityFuseTick = 16
+proximityFuseDamage = 275
+proximityFuseHeight = 8
+ExplosionAirburst = 3
+EnableOffAxis = false

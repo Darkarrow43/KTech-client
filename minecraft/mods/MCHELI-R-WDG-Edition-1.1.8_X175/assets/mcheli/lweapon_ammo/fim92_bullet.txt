@@ -1,0 +1,6 @@
+DisplayName=FIM-92 Missile
+AddDisplayName=zh_CN,FIM-92 弹药
+ItemID=28932
+StackSize=2
+TextureName=fim92_bullet
+AddRecipe="R  "," I ","  G",G,gunpowder,I,iron_ingot,R,redstone

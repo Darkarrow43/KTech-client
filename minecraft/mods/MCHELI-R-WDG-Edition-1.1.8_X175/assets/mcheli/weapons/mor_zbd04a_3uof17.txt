@@ -1,0 +1,68 @@
+DisplayName = 100mm 3UOF17 [HE-FRAG]
+Type = MachineGun1
+Power = 300
+Explosion = 4
+ExplosionBlock = 2
+Acceleration = 4
+Sound = bmp_100_SND
+SoundVolume = 10.0
+Accuracy = 0.04
+ModelBullet = tank_shell
+Flaming = false
+Round = 1
+Sight = None
+Delay = 120
+ReloadTime = 200
+Gravity = -0.04
+Group = MainGun
+Recoil = 0.55
+
+DisplayMortarDistance = true
+EnableMortarRadar = true
+MortarRadarMaxDist = 350
+TrajectoryParticle = largesmoke
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1
+DamageFactor = vehicle, 1
+DamageFactor = tank, 0.8
+DamageFactor = living, 0.5
+DamageFactor = ship, 0.8
+
+ExplosionDamageVsLiving = 1.5
+ExplosionDamageVsPlayer = 1.0
+ExplosionDamageVsTank = 1.0
+ExplosionDamageVsPlane = 1.5
+ExplosionDamageVsHeli = 1.5
+ExplosionDamageVsVehicle = 1.5
+ExplosionDamageVsShip = 1.0
+
+AddMuzzleFlash      = 6.3, 1.10, 7, 220,254,159,74
+AddMuzzleFlash      = 6.2, 1.05, 6, 220,254,219,104
+AddMuzzleFlash      = 6.1, 1.00, 5, 220,254,219,184
+AddMuzzleFlashSmoke = 6.3, 10, 9.0, 3.0, 45, 220,160,140,120
+AddMuzzleFlashSmoke = 6.3,  6, 8.0, 4.0, 35, 200,190,170,150
+
+SpeedFactor = 0.05
+SpeedFactorStartTick = 10
+SpeedFactorEndTick = 15
+
+RecoilBufCount = 30, 4
+RecoilPitch = 65
+RecoilYaw = 0.3
+RecoilPitchRange = 12
+RecoilYawRange = 0.6
+RecoilRecoverFactor = 0.05
+
+MaxAmmo = 22
+SuppliedNum = 5
+Item = 1, iron_ingot
+Item = 1, gunpowder
+
+FlakParticlesCrack = 150
+NumParticlesFlak = 15
+FlakParticlesDiff = 0.5
+
+WeaponSwitchSound = Switch_Main_Cannon
+crosstype = 12

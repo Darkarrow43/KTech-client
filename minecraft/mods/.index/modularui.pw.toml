@@ -1,0 +1,21 @@
+filename = 'modularui2-2.3.92-1.7.10.jar'
+name = 'Modular UI 2'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'modularui2-2.3.92-1.7.10.jar'
+
+[download]
+hash = 'b5a7b87bca062f7426062f1210ea1409608e9c4d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9023702
+project-id = 624243
+
+[[x-prismlauncher-dependencies]]
+addonId = '826970'
+type = 'REQUIRED'

@@ -1,0 +1,75 @@
+DisplayName = SPIKE LR / MELLS [IIR-ATGM]
+Type = ATMissile
+Power = 600
+ModelBullet = agm114
+Acceleration = 2.0
+Explosion = 4
+ExplosionBlock = 0
+Flaming = false
+Gravity = 0
+Sight = MissileSight
+
+Delay = 20
+ModeNum = 2
+Round = 2
+ReloadTime = 200
+Sound = TOW_F
+SoundVolume = 10
+RidableOnly = true
+TimeFuse = 500
+
+LockTime = 10
+LockEntity = true
+MaxLockOnRange = 400
+MaxLockOnAngle = 40
+MaxDegreeOfMissile = 70
+EnableOffAxis = true
+PredictTargetPos = true
+RigidityTime = 5
+TurningFactor = 0.17
+
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+PassiveRadar = false
+ActiveRadar = false
+LaserGuidance = false
+HasLaserGuidancePod = false
+
+SpeedFactor = 0.1
+SpeedFactorStartTick = 5
+SpeedFactorEndTick = 45
+SpeedDependsAircraft = false
+EnableChunkLoader = true
+CanBeIntercepted = false
+
+DamageFactor = player, 0.30
+DamageFactor = living, 0.35
+DamageFactor = plane, 0.10
+DamageFactor = heli, 0.10
+DamageFactor = vehicle, 1.20
+DamageFactor = tank, 1.50
+DamageFactor = ship, 0.80
+
+ExplosionDamageVsLiving = 1.0
+ExplosionDamageVsPlayer = 0.7
+ExplosionDamageVsTank = 1.0
+ExplosionDamageVsPlane = 0.25
+ExplosionDamageVsHeli = 0.25
+ExplosionDamageVsVehicle = 1.0
+ExplosionDamageVsShip = 0.8
+
+DisableDestroyBlock = true
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item = 1, iron_ingot
+Item = 1, gunpowder
+Item = 1, redstone
+
+AddMuzzleFlash      = 3.2, 3, 2, 150,254,159,84
+AddMuzzleFlash      = 3.0, 2, 1, 150,254,219,184
+AddMuzzleFlashSmoke = 2.2, 2, 5.0, 2.0, 15, 180,250,245,240
+AddMuzzleFlashSmoke = 3.2, 1, 3.0, 3.0, 5, 180,220,217,214
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+crosstype = 11

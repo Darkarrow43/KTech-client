@@ -1,0 +1,128 @@
+DisplayName = PUMA
+AddDisplayName = zh_CN,美洲狮步兵战车
+AddDisplayName = en_US,PUMA
+ItemID = 91128
+MaxHp = 750
+Speed = 0.7
+ThrottleUpDown = 2.0
+Gravity = -0.1
+
+DamageFactor = 0.00
+EnableNightVision = true
+EnableEntityRadar = false
+Sound = tank14_idle
+
+WeightType = Tank
+DefaultFreelook = true
+
+CameraZoom = 6
+
+FlareType = 10
+ArmorMinDamage = 12
+Float = false
+
+
+
+hasMaintenance=true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+
+
+EnableBack = true
+SetWheelPos =  1.79,  -0.21,  4.14, 3.01, 0.83, -1.11, -3.26
+
+StepHeight = 1.5
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+AddCrawlerTrack = true, 0.20, -2.0,  -0.2520/3.778,-0.2468/3.952,0.2156/4.782,0.5494/4.991,0.7281/4.991,1.062/4.782,1.097/4.649,1.124/4.5,1.124/-1.831,0.9573/-2.078,0.7456/-2.133,0.5279/-2.093,-0.1871/-1.279,-0.2491/-1.139,-0.2520/-0.7371,
+
+OnGroundPitchFactor = 3.5
+OnGroundRollFactor  = 3.5
+
+MobilityYawOnGround = 4
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat =  0.00, 1.58, 0,    -0.0, 1.78, 0.0,  false, -90, 90, true
+AddGunnerSeat =  -0.5, 0.58, 0,    -0.5, 4.00, 0.0,  false, -90, 90, true
+Entitywidth=0
+Entityheight=0
+
+HideEntity = true
+
+CameraPosition = 0.4,  3.15, 1.928, true
+CameraRotationSpeed = 40
+
+StepHeight = 2
+HideEntity = true
+
+
+MotionFactor = 0.9
+
+MaxFuel         = 1250
+FuelConsumption = 1
+
+TrackRollerRot = 50
+
+
+
+AddTrackRoller = -2.32,  0.6755,  4.637
+AddTrackRoller = -2.32,  0.1460,  3.583
+AddTrackRoller = -2.32,  0.1460,  2.684
+AddTrackRoller = -2.32,  0.1460,  1.806
+AddTrackRoller = -2.32,  0.1460,  0.7388
+AddTrackRoller = -2.32,  0.1460,  -0.1249
+AddTrackRoller = -2.32,  0.1460,  -0.9801
+AddTrackRoller = -2.32,  0.6975, -1.709
+
+
+
+NameOnAdvancedAARadar = PUM
+NameOnModernAARadar = PUM
+NameOnEarlyAARadar = PUM
+NameOnModernASRadar = PUM
+NameOnEarlyASRadar = PUM
+RadarType = EARLY_AS
+Enablerwr = true
+
+MinRotationPitch = -45
+MaxRotationPitch =  10
+
+
+AddTurretWeapon = ac_puma_dm33, -0.4672, 2.452,  0.6086,  0.0, 0.0, true,1, 0,-360,360, -75, 10
+AddTurretWeapon = ac_puma_dm21, -0.4672, 2.452,  0.6086,  0.0, 0.0, true,1, 0,-360,360, -75, 10
+
+AddTurretWeapon = iragm_puma_spikelr, 0.82,  2.514, -0.05,  0.0, -15, true,1, 0,-360,360, -75, 10
+AddTurretWeapon = GUNNER_connonstrike,  -0.5, 4.00, 0.0,  0.0, 0, false,2, 0,-360,360, -75, 20
+AddTurretWeapon = GUNNER_MARK_BLOCK,  -0.5, 6.30, 0.0,  0.0, 0, false,2, 0,-360,360, -80, -20
+
+
+
+AddPartWeapon = ac_puma_dm33, false, true, false,  0.00, 2.702, 0.0, 0
+AddPartWeaponChild = false, true, -0.4672, 2.452, 0.6086
+AddPartWeaponChild = false, true, -0.4672,  2.452, 0.6086, 0.05
+AddPartWeaponChild = false, true, 0.82,  2.514,0.05
+
+BoundingBox = -0.497, 0.798, 0.97,  4.247, 2.0, 4.67, 1.0, DEFAULT, Hull Side
+BoundingBox = -0.497, 0.798, -2.02,  4.247, 2.0, 1.329, 1.2, DEFAULT, Crew/Ammo Compartment
+BoundingBox = -0.497, 1.294, 4.393,  4.247, 0.995, 2.255, 0.5, DEFAULT, Upper Glacis
+BoundingBox = -0.497, 0.294, 4.342,  4.247, 0.994, 2.092, 0.7, DEFAULT, Lower Glacis
+
+BoundingBox = -0.808, 2.396, -0.208,  0.077, 0.869, 1.912, 1.0, TURRET, Turret Side
+BoundingBox = 0.984, 2.396, -0.208,  0.077, 0.869, 1.912, 1.0, TURRET, Turret Side
+BoundingBox = 0.092, 2.396, -1.184,  1.81, 0.869, 0.038, 1.3, TURRET, Turret Rear
+BoundingBox = 0.085, 2.341, 0.382,  1.801, 1.099, 2.808, 0.6, TURRET, Turret
+BoundingBox = 0.085, 2.904, 0.383,  1.671, 0.033, 2.605, 1.0, TURRET, Turret Top
+
+engineShutdownThreshold = 10
+throttledownfactor=3
+explosionsizebycrash=3
+
+
+weapongrouptype=12
+hudtype=1
+HUD = IFV, MBT_GUNNER
+
+
+

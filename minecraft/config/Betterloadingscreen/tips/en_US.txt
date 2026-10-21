@@ -1,0 +1,23 @@
+#Tips for the loading screen
+#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
+#
+#Maximal characters for a tip: 77 (more can go out of the screen)
+#The line below, including the "#" are 77 chars
+#Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
+#
+remember switching to your secondary nuke is faster than reloading
+check out the HBM wiki for more info
+GTNH team saved me so much pain
+is it really legacy if it gets updated?
+running on java 25
+Angelica is backported Sodium and Iris
+deepslate spawns in small clusters
+amethyst geodes spawn with asphalt as a shell
+you can visit the moon
+distant horizons has a FEW ISSUES bare with me
+if your game keeps crashing don't hesitate to dm Darkarrow
+if your experiencing lag dm Darkarrow
+there are many types of trees to clear-cut
+not all features/recipes can be played in singleplayer
+pollution attracts glyphids
+Always chunkload your reactors!

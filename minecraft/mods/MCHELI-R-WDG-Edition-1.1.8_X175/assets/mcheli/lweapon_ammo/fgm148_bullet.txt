@@ -1,0 +1,6 @@
+DisplayName=FGM-148 Missile
+AddDisplayName=zh_CN,FGM-148 弹药
+ItemID=28931
+StackSize=2
+TextureName=fgm148_bullet
+AddRecipe=" R "," I "," G ",G,gunpowder,I,iron_ingot,R,redstone

@@ -1,0 +1,163 @@
+DisplayName = F-15EX STRIKE EAGLE
+AddDisplayName = zh_CN,F-15EX 攻击鹰
+AddDisplayName = en_US,F-15EX STRIKE EAGLE
+MaxHp = 400
+
+Category = 4.0
+HUD = jet, jet_gunner
+ThirdPersonDist = 25
+Speed = 1.0
+MobilityPitch = 0.9
+MobilityRoll = 1
+MobilityYaw = 0.9
+ThrottleUpDown = 0.4
+
+Gravity = -0.038
+motionfactor = 0.96
+MaxFuel = 1200
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.7
+AutoPilotRot = 0
+
+CameraPosition = 1.355, 0.7385, -3.151
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.00,  2.255,  0.4031
+AddGunnerSeat = 0.00,  2.552, -1.466, 1.355, 0.7385, -3.151, true
+
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_red, 0.7552, 2.092, -13.22, -1, 0, 0, 0, 1
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_red, -0.7552, 2.092, -13.22, -1, 0, 0, 0, 1
+
+ArmorMinDamage = 12
+DamageFactor = 0.0
+engineShutdownThreshold = 10
+explosionsizebycrash = 5
+
+BoundingBox = 0, 2.2, 3.5, 1.5, 1.5, 3, 1, DEFAULT, NOSE
+BoundingBox = 0, 2.7, 0, 1.5, 2.5, 4, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 2, -6.5, 4.6, 1.5, 9, 1.2, DEFAULT, FUSELAGE
+BoundingBox = 0, 2, -13, 4, 1.5, 4, 1.7, DEFAULT, ENGINE
+BoundingBox = 4.8, 2.4, -8.5, 5, 0.2, 5, 0.7, DEFAULT, WING
+BoundingBox = -4.8, 2.4, -8.5, 5, 0.2, 5, 0.7, DEFAULT, WING
+
+EntityWidth = 0.65
+EntityHeight = 0.65
+
+FlareType = 4
+FlareCapacity = 36
+FlareReleaseCooldown = 6
+HasChaff = true
+ChaffCapacity = 36
+ChaffReleaseCooldown = 5
+
+RadarType = ADVANCED_AA
+NameOnModernAARadar = F15
+NameOnEarlyAARadar = F15
+NameOnModernASRadar = F15
+NameOnEarlyASRadar = F15
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = true
+
+RadarSearchType = MULTI_TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = FULL
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 120
+RadarScanElevationDeg = 120
+RadarTrackAzimuthDeg = 120
+RadarTrackElevationDeg = 120
+
+RadarMaxTargetRange = 1500
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 10
+
+RadarScanTick = 8
+RadarContactHoldTick = 95
+RadarDetectChanceBase = 0.95
+RadarGainFactor = 1.60, 0.65
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = F15
+
+EnableHMS = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddPartwing = 0.00, 3.10, -4.182,  -1,0,0,  -50
+AddPartLGScale = 0, 1.559, -2.762
+AddPartLGRev = 0.2001, 1.425, 0.3139,  0,0,1,70
+AddPartLGRev = 0, 1.364, -1.492,  1,0,0,120
+
+AddPartLGScale = 1.378, 1.560, -7.247
+AddPartLGRev = 0.3367, 1.327, -6.196,  0,0,1,-90
+AddPartLGScale = -1.378, 1.560, -7.247
+AddPartLGRev = -0.3367, 1.327, -6.196,  0,0,1,90
+
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.3
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, -5.8
+
+AddPartSteeringWheel = -1.977,  2.737,  -13.78,   0, 1,0,  -15
+AddPartSteeringWheel = 1.971,  2.753,  -13.78 , 0, 1, 0,  -15
+AddPartSteeringWheel = -2.328,2.430,-10.15, 1, 0, 0.0,   25
+AddPartSteeringWheel = 2.327,2.449,-10.15, 1, 0, 0.0,   -25
+AddPartSteeringWheel = -2.328,1.897,-14.00, 1, 0, 0.0,   25
+AddPartSteeringWheel = 2.327,1.897,-14.00, 1, 0, 0.0,   -25
+AddPartSteeringWheel = -0.03495,2.625,0.8746, 0, 0, 1,   -20
+
+AddPartCanopy = 0.00, 3.507, -2.568,  -1,0,0,  40
+AddPartCanopy = 0.00, 3.903, -2.891,  -1,0,0,  0
+
+;Weapons
+AddPartWeaponMissile = arhaam_f15ex_aim120d3,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f15ex_aim120d3,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f15ex_aim120d3,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f15ex_aim120d3,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_agm84_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_agm84_dual,   false, false, false,  0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_f15ex_gbu62_dual,   false, false, false,  0.297,  0.518, -8.699
+
+AddWeapon = ac_f15ex_m61a1,  1.9,  2.4, -6,  0.0,  0.0
+
+AddWeapon = arhaam_f15ex_aim120d3,     3.5,  1.758, -7.699,  0,-0.0
+AddWeapon = arhaam_f15ex_aim120d3,    -3.5,  1.758, -7.699,  0,-0.0
+AddWeapon = arhaam_f15ex_aim120d3,     3.2,  1.758, -7.699,  0,-0.0
+AddWeapon = arhaam_f15ex_aim120d3,    -3.2,  1.758, -7.699,  0,-0.0
+AddWeapon = gps_f15ex_agm84_dual,  3,  1.8, -6,  0, -0,true,2
+AddWeapon = gps_f15ex_agm84_dual, -3,  1.8, -6,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, 2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, -2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, 2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, -2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, 2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, -2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, 2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, -2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, 2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, -2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, 2,  1.8, -2,  0, -0,true,2
+AddWeapon = gps_f15ex_gbu62_dual, -2,  1.8, -2,  0, -0,true,2
+
+AddTurretWeapon = AESA,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -70,10
+weapongrouptype = 13

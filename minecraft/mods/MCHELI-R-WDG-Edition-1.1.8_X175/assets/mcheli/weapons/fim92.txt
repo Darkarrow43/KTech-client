@@ -1,0 +1,46 @@
+DisplayName = FIM-92 ·À¿Õµ¼µ¯
+Type = AAMissile
+Power = 200
+Acceleration = 2.25
+SpeedFactor = 0.15
+SpeedFactorStartTick = 0
+SpeedFactorEndTick = 21
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 120
+LockTime = 40
+Sound = FIM92_F
+Zoom = 1.8
+RigidityTime = 4
+DamageFactor = plane, 1.0
+DamageFactor = helicopter, 1
+HeatCount = 120
+MaxHeatCount = 120
+Reloadtime = 100
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone
+
+
+ProximityFuseDist = 20
+proximityFuseTick = 20
+proximityFuseDamage = 250
+proximityFuseHeight = 10
+ExplosionAirburst = 4
+EnableOffAxis = true
+LockMinHeight = 10
+explosionblock=0
+
+turningFactor = 0.18
+MaxDegreeOfMissile = 60
+maxLockOnAngle = 10
+MaxLockOnRange = 300
+AntiFlareCount = 0
+FlareDiversionChance = 0.60
+CountermeasureScanInterval = 5
+CountermeasureRange = 90
+CountermeasureEffectiveTime = 100

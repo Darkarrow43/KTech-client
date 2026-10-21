@@ -1,0 +1,147 @@
+DisplayName = F-14D
+AddDisplayName = zh_CN,F-14D 雄猫
+AddDisplayName = en_US,F-14D TOMCAT
+MaxHp = 400
+
+Category = 3.0
+HUD = jet
+ThirdPersonDist = 25
+Speed = 1.3
+MobilityPitch = 0.87
+MobilityRoll = 1
+MobilityYaw = 0.35
+ThrottleUpDown = 0.39
+
+Gravity = -0.038
+motionfactor = 0.955
+MaxFuel = 1080
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+Sound = 10
+Sound = jet7_idle
+
+CameraPosition = 0.0, 0.0, 0
+EnableGunnerMode = false
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.04,  2.00,  5.531
+
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_red, 1.576, 1.584, -8, -1, 0, 0, 0, 1
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_red, -1.576, 1.584, -8, -1, 0, 0, 0, 1
+
+ArmorMinDamage = 12
+DamageFactor = 0.0
+engineShutdownThreshold = 10
+explosionsizebycrash = 4
+
+BoundingBox = 0, 2, 8,  1.5, 1.5, 3, 1, DEFAULT, NOSE
+BoundingBox = 0, 2.4, 4,  1.5, 2.5, 5, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 2, -2.5,  6, 2, 8, 1, DEFAULT, FUSELAGE
+BoundingBox = 0, 1.7, -8.3,  5, 1.2, 3.7, 1.5, DEFAULT, ENGINE
+BoundingBox = 4, 1.7, -8.3,  3, 0.2, 3, 1.5, DEFAULT, HORISTAB
+BoundingBox = -4, 1.7, -8.3,  3, 0.2, 3, 1.5, DEFAULT, HORISTAB
+BoundingBox = 1.7, 3.8, -8.3,  0.2, 3, 3, 1.5, DEFAULT, VERTISTAB
+BoundingBox = -1.7, 3.8, -8.3,  0.2, 3, 3, 1.5, DEFAULT, VERTISTAB
+
+EntityWidth = 0.70
+EntityHeight = 0.70
+
+FlareType = 4
+FlareCapacity = 30
+FlareReleaseCooldown = 6
+HasChaff = true
+ChaffCapacity = 30
+ChaffReleaseCooldown = 5
+
+RadarType = MODERN_AA
+NameOnModernAARadar = 14D
+NameOnEarlyAARadar = 14D
+NameOnModernASRadar = 14D
+NameOnEarlyASRadar = 14D
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = true
+
+RadarSearchType = TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = FULL
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 130
+RadarScanElevationDeg = 130
+RadarTrackAzimuthDeg = 130
+RadarTrackElevationDeg = 130
+
+RadarMaxTargetRange = 1250
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 10
+
+RadarScanTick = 16
+RadarContactHoldTick = 100
+RadarDetectChanceBase = 0.82
+RadarGainFactor = 1.35, 0.45
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = F14
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddPartWing = 0, 1.999, -7.922,  1, 0,0, 40
+AddPartWing = 0, 1.647, -7.715,  1, 0,0, -40
+
+AddPartLGScale = 0, 1.945, 4.818
+AddPartLGRev = 0.3629, 1.27, 5.332,  0,0,1,95
+AddPartLGRev = -0.3629, 1.27, 5.332,  0,0,1,-95
+AddPartLGRev = 0, 1.328, 3.385,  1,0,0,-35
+
+AddPartLGScale = 1.9, 2.3, -3.13
+AddPartLGRev = 2.925, 2.22, -0.3719,  0,0,1,45
+
+AddPartLGScale = -1.9, 2.3, -3.13
+AddPartLGRev = -2.925, 2.22, -0.3719,  0,0,1,-45
+
+AddPartSteeringWheel = 0.03789,2.327,6.004, 0, 0, 1,   -20
+AddPartSteeringWheel = 1.563, 2.385, -8.613, 0.0, -1.0, 0.337, 15
+AddPartSteeringWheel = -1.599, 2.397, -8.602, 0.0, -1.0, 0.337, 15
+
+AddPartSteeringWheel = 2.9, 1.756,-7.951, 1, 0, 0.0,   -15
+AddPartSteeringWheel = -2.9, 1.756,-7.951,  -1, 0, 0.0,   -15
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.25
+AddPartThrottle = 3.371, 2.579, -1.692,  0, 1, 0, 45
+AddPartThrottle = -3.353, 2.604, -1.668,  0, -1, 0, 45
+
+AddPartCanopy = 0.00, 3.292, 2.149,  -1,0,0,  40
+AddPartCanopy = 0.00, 3.903, -2.891,  -1,0,0,  0
+
+;Weapons
+AddPartWeaponMissile = arhaam_f14d_aim54c,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f14d_aim54c,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f14d_aim54c,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f14d_aim54c,   false, false, false,  -0.297,  0.518, -8.699
+
+AddPartWeaponMissile = iraam_f14d_aim9l,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = iraam_f14d_aim9l,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = sarhaam_f14d_aim7pe2,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = sarhaam_f14d_aim7pe2,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = f14d_aim9l,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = f14d_aim9l,   false, false, false,  -0.297,  0.518, -8.699
+
+AddWeapon = ac_f14d_m61a1,  0.9,  1.58,  6,  0.0,  0.0
+AddWeapon = sarhaam_f14d_aim7pe2,    -3.5,  1.758, -6,  0,-0.0
+AddWeapon = sarhaam_f14d_aim7pe2,     3.5,  1.758, -6,  0,-0.0
+AddWeapon = arhaam_f14d_aim54c,      1.5,  1.758, -1,  0,-0.0
+AddWeapon = arhaam_f14d_aim54c,     -1.5,  1.758, -1,  0,-0.0
+AddWeapon = arhaam_f14d_aim54c,      1.5,  1.758, -5,  0,-0.0
+AddWeapon = arhaam_f14d_aim54c,     -1.5,  1.758, -5,  0,-0.0
+AddWeapon = iraam_f14d_aim9l,     4.232,  1.758, -7.699,  0,-0.0
+AddWeapon = iraam_f14d_aim9l,     -4.232,  1.758, -7.699,  0,-0.0
+
+weapongrouptype = 2

@@ -1,0 +1,64 @@
+DisplayName = Patriot PAC-2 [ARH-AAM]
+Type = AAMissile
+ModelBullet = aim-7m
+Power = 500
+Acceleration = 1.0
+Explosion = 5
+Explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 20
+Reloadtime = 200
+
+Group = MainGun
+Round = 4
+LockTime = 0
+DamageFactor = heli, 0.8
+Sound = AA11_F
+RigidityTime = 5
+MaxAmmo = 4
+SuppliedNum = 1
+Gravity = 0
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+predictTargetPos = true
+turningFactor = 0.18
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+numLockedChaffMax = 5
+ChaffDiversionChance = 0.25
+CountermeasureScanInterval = 2
+CountermeasureRange = 52
+CountermeasureEffectiveTime = 60
+MaxLockOnRange = 1000
+MaxDegreeOfMissile = 40
+ActiveRadar = true
+LockMinHeight = 20
+EnableOffAxis = false
+maxLockOnAngle = 45
+enableBVR = true
+WeaponSwitchSound = Switch_Jet_wWeapon_Missile
+SpeedFactor = 0.1
+SpeedFactorStartTick = 0
+SpeedFactorEndTick = 40
+SpeedDependsAircraft = true
+MinRangeBVR = 50
+enableChunkLoader = true
+
+ExplosionDamageVsLiving = 1
+ExplosionDamageVsPlayer = 0.1
+ExplosionDamageVsTank = 0.1
+ExplosionDamageVsPlane = 1
+ExplosionDamageVsHeli = 1
+ExplosionDamageVsVehicle = 0.1
+ExplosionDamageVsShip = 0.1
+
+crosstype=4
+
+ProximityFuseDist = 18
+proximityFuseTick = 16
+proximityFuseDamage = 275
+proximityFuseHeight = 8
+ExplosionAirburst = 4

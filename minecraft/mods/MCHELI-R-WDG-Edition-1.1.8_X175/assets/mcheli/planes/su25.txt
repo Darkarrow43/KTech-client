@@ -1,0 +1,122 @@
+DisplayName = SU-25 FROGFOOT
+AddDisplayName = zh_CN,SU-25 蛙足
+AddDisplayName = en_US,SU-25 FROGFOOT
+MaxHp = 500
+
+Category = 3.5
+ItemID = 28705
+HUD = jet,jet_gunner
+ThirdPersonDist = 25
+Speed = 0.75
+MobilityPitch = 0.8
+MobilityRoll = 1
+MobilityYaw = 0.8
+ThrottleUpDown = 0.4
+MinRotationPitch = -30
+MaxRotationPitch = 90
+SoundVolume = 10
+Sound = jet7_idle
+
+Gravity = -0.038
+motionfactor = 0.955
+MaxFuel = 720
+FuelConsumption = 1.0
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.00, 1.73, 5.1
+EnableGunnerMode = true
+AutoPilotRot = 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.01,  2.205,  -0.0
+
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+AddPartNozzle = -1.109, 1.665, -10.0, -1,0,0
+AddPartNozzle = 1.109, 1.665, -10.0, -1,0,0
+
+ArmorMinDamage = 12
+DamageFactor = 0
+engineShutdownThreshold = 5
+explosionsizebycrash = 5
+
+BoundingBox =  0, 2.2, 3.2, 1.5, 1.5, 3, 1, DEFAULT, NOSE
+BoundingBox =  0, 2.7, 0.2, 1.5, 2.5, 3, 0.7, DEFAULT, COCKPIT
+BoundingBox =  0, 2.7, -7.8, 1.5, 2.5, 13, 1, DEFAULT, FUSELAGE
+BoundingBox =  0, 5.35, -12.6, 0.3, 2.8, 3, 1.5, DEFAULT, VERTSTAB
+BoundingBox =  2, 3, -13.3, 2.5, 0.3, 2, 1.5, DEFAULT, HORISTAB
+BoundingBox =  -2, 3, -13.3, 2.5, 0.3, 2, 1.5, DEFAULT, HORISTAB
+BoundingBox =  1.25, 2.2, -6, 1, 2.2, 8, 1, DEFAULT, ENGINE
+BoundingBox =  -1.25, 2.2, -6, 1, 2.2, 8, 1, DEFAULT, ENGINE
+BoundingBox =  5.5, 2.9, -6.55, 7.5, 0.7, 3.5, 0.8, DEFAULT, WING
+BoundingBox =  -5.5, 2.9, -6.55, 7.5, 0.7, 3.5, 0.8, DEFAULT, WING
+EntityWidth = 0.85
+EntityHeight = 0.85
+
+FlareType = 5
+FlareCapacity = 40
+FlareReleaseCooldown = 6
+HasChaff = true
+ChaffCapacity = 24
+ChaffReleaseCooldown = 5
+
+RadarType = MODERN_AA
+NameOnModernAARadar = S25
+NameOnEarlyAARadar = S25
+NameOnModernASRadar = S25
+NameOnEarlyASRadar = S25
+
+enablerwr = true
+EnableRadar = false
+EnableBVR = false
+
+NameOnRWR = S25
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+	
+;Parts
+AddPartSteeringWheel = 0,3.06,-13.7, 1, 0, 0.0,   -25
+AddPartSteeringWheel = 6.0,2.6368,-7.7416, 1, 0, 0.0,   -20
+AddPartSteeringWheel = -6.0,2.6368,-7.7416,  -1, 0, 0.0,   -20
+AddPartSteeringWheel = 0.081,4.5,-13.1996, 0, 1, 0.0,   -20
+
+AddPartSteeringWheel = 0.081,2.52,0.4533, 0, 0, 1,   -20
+
+AddPartSteeringWheel = 0,3.06,-13.7, -1, 0, 0.0,   -25
+
+AddPartwing = 0.00,  2.7735,-7.5463,  1,0, 0, -25
+AddPartCanopy = -0.5749, 3.025,  -0.1514, 0,0,1,  60
+AddPartLG = 0, 1.7, -0.5,  1,0,0,110
+AddPartLG = -1.5, 1.6, -6,  0,0,1,100
+AddPartLG = 1.5, 1.6, -6,  0,0,1,-100
+AddPartLGRev = -0.3411, 1.251, -0.4256,  0,0,1,-120
+AddPartLGRev = 0.3641, 1.217, -0.8772,  0,0,1,120
+
+AddPartLGRev = -0.5408, 1.084, -4.507,  0,0,1,70
+AddPartLGRev = 0.5521, 1.084, -4.516,  0,0,1,-70
+
+;Weapons
+AddPartWeaponMissile = salagm_su25_kh38ml,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = salagm_su25_kh38ml,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = cb_su25_rkb500u_dual,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = cb_su25_rkb500u_dual,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = iraam_su25_r73,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = iraam_su25_r73,  false, false, false,  -5.0, 0,  0
+
+AddWeapon = ac_su25_gsh30,  0.45,    1.412,  2,   0.1, -0.1
+AddWeapon = r_su25_b8v20, -6.4318, 1.8, -4.4216, 0.0, 0.0
+AddWeapon = r_su25_b8v20,  6.4318, 1.8, -4.4216, 0.0, 0.0
+AddWeapon = salagm_su25_9m127, -4, 1.952, -4,   0, -0, true,1
+AddWeapon = salagm_su25_9m127,  4, 1.952, -4,  0,-0, true,1
+AddWeapon = salagm_su25_kh38ml, -3, 1.952, -3,   -0.0,-0, true,1
+AddWeapon = salagm_su25_kh38ml,  3, 1.952, -3,  0.0, -0, true,1
+AddWeapon = cb_su25_rkb500u_dual, -5.4318, 1.8, -4.4216, 0.0, 0.0
+AddWeapon = cb_su25_rkb500u_dual,  5.4318, 1.8, -4.4216, 0.0, 0.0
+AddWeapon = iraam_su25_r73, -7.4318, 1.8, -4.4216, 0.0, 0.0
+AddWeapon = iraam_su25_r73,  7.4318, 1.8, -4.4216, 0.0, 0.0
+
+weapongrouptype = 11

@@ -1,0 +1,67 @@
+DisplayName = MRAP
+AddDisplayName = zh_CN, MRAP 防地雷反伏击车
+AddDisplayName = en_US, MRAP
+MaxHp = 350
+Category = 3.0
+
+HUD = m1161itv,mbt_gnr
+Speed = 1.458333
+WheeledHandling = true
+WheeledAcceleration = 2.100
+WheeledTurnRadius = 8.00
+MinRotationPitch = -85
+MaxRotationPitch = 10
+StepHeight = 1.5
+DefaultFreelook = true
+CameraPosition = 0.6, 2.6, 0.3
+
+Sound = tank7_idle
+Float = false
+
+Gravity = -0.1
+GravityInWater = -0.1
+MaxFuel = 1500
+FuelConsumption = 1
+
+CameraRotationSpeed = 50
+CameraZoom = 3
+EnableNightVision = true
+EnableEntityRadar = false
+AddSeat = 0.5509, 1.53, 0.3860
+AddGunnerSeat = -0.5509, 1.53, 0.3860, 0.00, 4,  -1.338,  false, -90, 90, true
+
+ArmorMinDamage = 10
+DamageFactor = 0
+
+engineShutdownThreshold = 5
+explosionsizebycrash = 3
+BoundingBox = 0, 1.4, 2.5, 3, 2, 2, 1.5, DEFAULT, ENGINE
+BoundingBox = 0, 1.7, -1, 3, 2.5, 5, 0.8, DEFAULT, CABIN
+
+SubmergedDamageHeight = 2
+
+NameOnModernAARadar = CAR
+NameOnEarlyAARadar = CAR
+NameOnModernASRadar = CAR
+NameOnEarlyASRadar = CAR
+
+OnGroundPitchFactor = 0.9
+OnGroundRollFactor = 0.9
+
+;Parts
+SetWheelPos = 1.50, -0.21, 2.294, -2.193
+
+TrackRollerRot = 50
+
+AddTrackRoller = -1.499,  0.4432,  2.294
+AddTrackRoller = -1.541,  0.4432,  -2.193
+
+;Weapons
+AddPartWeapon = gunner_mg_127,     false,  true,  false,   0.0004168,  0.649,    -1.134
+AddPartWeaponChild = false, true,  0.00, 3.542,  -1.338
+AddWeapon = gunner_mg_127,   0.0004168, 3.542,  -1.338,   0.0, 0.0, false, 2, 0, -360,360, -40,10
+
+WeightType = Tank
+EnableBack = true
+WeightedCenterZ = 0.1
+HideEntity = true

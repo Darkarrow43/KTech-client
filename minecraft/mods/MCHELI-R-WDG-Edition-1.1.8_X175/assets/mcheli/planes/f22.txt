@@ -1,0 +1,153 @@
+DisplayName = F-22A RAPTOR
+AddDisplayName = zh_CN,F-22A 猛禽
+AddDisplayName = en_US,F-22A RAPTOR
+MaxHp = 400
+
+Category = 5.0
+HUD = jet, jet_gunner
+ThirdPersonDist = 25
+Speed = 1.5
+MobilityPitch = 1.0
+MobilityRoll = 1
+MobilityYaw = 0.35
+ThrottleUpDown = 0.5
+SoundVolume = 10
+Sound = jet7_idle
+
+Gravity = -0.038
+motionfactor = 0.96
+MaxFuel = 1080
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.0, 0.0, 0
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.00,  2.05,  3.03
+
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = F119, Exhaustflame_red, 0.7529, 1.804, -8.873, -1, 0, 0, 0, 1
+AddExhaustFlame = F119, Exhaustflame_red, -0.7529, 1.804, -8.873, -1, 0, 0, 0, 1
+
+ArmorMinDamage = 12
+DamageFactor = 0.0
+engineShutdownThreshold = 10
+explosionsizebycrash = 4
+
+BoundingBox = 0, 2.2, 3, 1.7, 2.5, 3, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 1.8, -3.5, 4, 2.4, 10, 1, DEFAULT, FUSELAGE
+BoundingBox = 0, 1.8, -10, 4, 1.8, 3, 1.5, DEFAULT, ENGINE
+BoundingBox = 4.5, 1.9, -6.3, 5, 0.2, 5, 0.8, DEFAULT, WING
+BoundingBox = -4.5, 1.9, -6.3, 5, 0.2, 5, 0.8, DEFAULT, WING
+
+EntityWidth = 0.70
+EntityHeight = 0.70
+
+FlareType = 4
+FlareCapacity = 24
+FlareReleaseCooldown = 6
+hasecmJammer = true
+ecmJammerType = 0
+ecmJammerUseTime = 100
+ecmJammerWaitTime = 600
+ecmJammerRange = 375
+
+haschaff = true
+ChaffCapacity = 24
+ChaffReleaseCooldown = 5
+
+RadarType = MODERN_AA
+NameOnModernAARadar = F22
+NameOnEarlyAARadar = F22
+NameOnModernASRadar = F22
+NameOnEarlyASRadar = F22
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = true
+
+RadarSearchType = MULTI_TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = FULL
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 120
+RadarScanElevationDeg = 120
+RadarTrackAzimuthDeg = 120
+RadarTrackElevationDeg = 120
+
+RadarMaxTargetRange = 1400
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 10
+
+RadarScanTick = 8
+RadarContactHoldTick = 100
+RadarDetectChanceBase = 0.95
+RadarGainFactor = 1.55, 0.60
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = F22
+
+RadarRCSFactor = 0.02, 0.20, 0.07, 0.45
+
+EnableHMS = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddPartwing = 0.00, 3.542, -4.496,  -1,0,0,  -20
+AddPartLG = 0, 1.346, 0.9327,  1,0,0,-90
+AddPartLGRev = 0.2789, 1.068, 2.224,  0,0,1,80
+AddPartLGRev = -0.2601, 1.068, 2.224,  0,0,1,-80
+
+AddPartLGScale = 1.399, 1.604, -6.076
+AddPartLGRev = 2.871, 1.810, -5.463,  0,0,1,45
+
+AddPartLGScale = -1.399, 1.604, -6.076
+AddPartLGRev = -2.86, 1.812, -5.459,  0,0,1,-45
+
+AddPartSteeringWheel = 3.427, 1.802,-9.042, 1, 0, 0.0,   -8
+AddPartSteeringWheel = -3.427, 1.802,-9.042,  -1, 0, 0.0,   -8
+
+AddPartSteeringWheel = 2.10, 1.852,-11.57, 1, 0, 0.0,   -15
+AddPartSteeringWheel = -2.081, 1.852,-11.57,  -1, 0, 0.0,   -15
+AddPartSteeringWheel = -0.3850,2.29,3.302, 0, 0, 1,   -20
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.22
+
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.3
+
+AddPartCanopy = 0.00, 3.140,0.9595,  -1,0,0,  40
+AddPartCanopy = 0.00, 3.903, -2.891,  -1,0,0,  0
+
+;Weapons
+AddPartWeaponMissile = iraam_f22a_aim9x2,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = iraam_f22a_aim9x2,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f22a_aim260,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f22a_aim260,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f22a_aim260,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_f22a_aim260,   false, false, false,  -0.297,  0.518, -8.699
+
+AddPartWeaponBay = iraam_f22a_aim9x2,  -2.005, 1.596, -2.441,  0.000, 0.000, 1.000, -130
+AddPartWeaponBay = iraam_f22a_aim9x2,  2.020,  1.594, -2.441,  0.000, 0.000, 1.000, 130
+AddPartWeaponBay = arhaam_f22a_aim260,  0.007808,  0.8034, -4.916,  0.000, 0.000, 1.000, 85
+AddPartWeaponBay = arhaam_f22a_aim260,  0.007808, 0.8034, -4.917,  0.000, 0.000, 1.000, -85
+AddPartWeaponBay = arhaam_f22a_aim260,  -1.213, 0.7845, -4.732,  0.000, 0.000, 1.000, -100
+AddPartWeaponBay = arhaam_f22a_aim260,  1.224,  0.7834, -4.734,  0.000, 0.000, 1.000, 100
+
+AddPartSlideweaponbay = arhaam_f22a_aim260 / iraam_f22a_aim9x2, 0,0,0.01
+
+AddWeapon = ac_f22a_m61a2,  -0.8,  2.5,  0.8,  0.0,  0.0
+AddWeapon = iraam_f22a_aim9x2,     2.2,  1.3, -5,  0,-0.0
+AddWeapon = iraam_f22a_aim9x2,    -2.2,  1.3, -5,  0,-0.0
+AddWeapon = arhaam_f22a_aim260,     0.3,  1.758, -7.699,  0,-0.0
+AddWeapon = arhaam_f22a_aim260,    -0.3,  1.758, -7.699,  0,-0.0
+AddWeapon = arhaam_f22a_aim260,     0.8,  1.758, -7.699,  0,-0.0
+AddWeapon = arhaam_f22a_aim260,    -0.8,  1.758, -7.699,  0,-0.0
+
+weapongrouptype = 3

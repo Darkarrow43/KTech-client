@@ -1,0 +1,68 @@
+{
+  "recipes": [
+    {
+      "name": "sludge.natcrete",
+      "inputFluid": [
+        ["NATCRETE",2000]
+      ],
+      "outputFluid": [
+        ["CONCRETE",1000],
+        ["BUURCRETE",500],
+        ["SCRAPCRETE",500],
+        ["LAVA",500]
+      ],
+      "duration": 100,
+      "power": 10000,
+      "nameWrapper": "sludge.natcrete"
+    },
+    {
+      "name": "sludge.concrete_recycling",
+      "inputFluid": [
+        ["CONCRETE",16000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_cement"]]
+      ],
+      "outputFluid": [
+        ["WATER",2000]
+      ],
+      "duration": 40,
+      "power": 5000,
+      "nameWrapper": "sludge.concrete_recycling"
+    },
+    {
+      "name": "sludge.iron_crystal",
+      "inputItem": [
+        ["item","hbm:tile.block_crystal",1,1]
+      ],
+      "inputFluid": [
+        ["SULFURIC_ACID",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_iron",32]]
+      ],
+      "outputFluid": [
+        ["SULFUR_DIOXIDE",1000],
+        ["SODIUM_METAVANADATE",100]
+      ],
+      "duration": 100,
+      "power": 20000,
+      "nameWrapper": "sludge.iron_crystal"
+    },
+    {
+      "name": "sludge.sand_slop_processing",
+      "inputFluid": [
+        ["HEAVY_SAND_SLOP",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.powder_zirconium",2]]
+      ],
+      "outputFluid": [
+        ["MONAZITE_SLOP",500],
+        ["CHLORINE",500]
+      ],
+      "duration": 50,
+      "power": 5000
+    }
+  ]
+}

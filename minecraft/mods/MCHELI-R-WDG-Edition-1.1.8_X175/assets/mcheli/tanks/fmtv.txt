@@ -1,0 +1,73 @@
+DisplayName = FMTV
+Category = 1.5
+MaxHp = 150
+Speed = 1.333333
+WheeledHandling = true
+WheeledAcceleration = 1.350
+WheeledTurnRadius = 9.50
+Sound = tank1_idle
+MinRotationPitch = -50
+MaxRotationPitch = 8
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 1
+CameraPosition = 0.6, 2.1, 2.8
+CameraRotationSpeed = 35
+MaxFuel         = 1000
+FuelConsumption = 1
+StepHeight = 1.5
+DefaultFreelook = false
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+HideEntity = false
+ThirdPersonDist = 8
+enablerwr = true
+
+SubmergedDamageHeight = 4
+HUD = m1161itv
+WeightType = Tank
+
+WeightedCenterZ = 0.0
+SetWheelPos = 1.10, -0.32, 2.2337, -1.4674, -2.9807
+
+AddSeat =  0.6563, 1.1269, 2.6020
+AddSeat = -0.6563, 1.3269, 2.6020
+
+AddSeat =  0.9290, 1.5047, 0.4857
+AddSeat =  0.9290, 1.5047, -0.4949
+AddSeat =  0.9290, 1.5047, -1.8712
+AddSeat =  0.9290, 1.5047, -3.1130
+
+AddSeat =  -0.9290, 1.5047, 0.4857
+AddSeat =  -0.9290, 1.5047, -0.4949
+AddSeat =  -0.9290, 1.5047, -1.8712
+AddSeat =  -0.9290, 1.5047, -3.1130
+
+
+explosionsizebycrash = 3
+ArmorMinDamage = 7
+engineshutdownthres = 5
+EnableBack = true
+
+AddPartHatch = 0.0485, 0.3247, -3.0983, 1, 0, 0, -105
+
+AddCrawlerTrack = false, 0.22, 0.0009, -0.3189/0.00, -0.3189/3.1569, 0.3813/4.0995, 0.9496/3.7747, 1.0990/3.4624, 1.1800/-3.6065, 0.9122/-4.0570, 0.4804/-4.0798, -0.3189/-3.1212
+TrackRollerRot = 25
+
+AddPartWheel = 1.0804, 0.3151, 2.2324, 30
+AddPartWheel = -1.1360, 0.3176, 2.2337, 30
+AddPartWheel = -0.0669, 0.3090, -1.4674
+AddPartWheel = -0.0828, 0.3072, -2.9807
+
+BoundingBox =  0.0, 1.0, 2.0,   3.0, 2.0,   1
+BoundingBox =  0.0, 1.0, -1.0,   3.0, 2.0,   1.1
+BoundingBox =  0.0, 1.0, -2.3,   3.0, 2.0,   1.1
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+NameOnModernAARadar = TRU
+NameOnEarlyAARadar = TRU
+NameOnModernASRadar = TRU
+NameOnEarlyASRadar = TRU

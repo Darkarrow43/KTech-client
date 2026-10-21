@@ -1,0 +1,62 @@
+DisplayName = GBU-53/B SDB II Term
+Type = ATmissile
+Power = 400
+Acceleration = 0
+Explosion = 8
+explosionblock = 5
+Flaming = false
+Sight = MoveSight
+Delay = 10
+round=2
+reloadtime = 200
+ModeNum = 1
+Sound = bomb_snd
+
+ModelBullet = gbu53
+Accuracy = 0
+DisableSmoke = True
+
+DisplayMortarDistance = true
+
+effectyield = 2
+
+EnableOffAxis = true
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor = vehicle , 1
+DamageFactor = tank, 2
+turningFactor = 0.08
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+EnableOffAxis = false
+LockTime = 1
+
+SpeedDependsAircraft =true
+
+crosstype=11
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=5
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=5
+DamageFactor = living, 1
+DamageFactor = ship, 3
+ExplosionDamageVsShip=7
+
+IsHeatSeekerMissile = true
+IsRadarMissile = false
+FlareDiversionChance = 0.05
+MaxLockOnRange = 70
+MaxLockOnAngle = 60
+EnableOffAxis = false
+MaxDegreeOfMissile = 60
+ActiveRadar = true
+SpeedDependsAircraft = false
+enableChunkLoader = true

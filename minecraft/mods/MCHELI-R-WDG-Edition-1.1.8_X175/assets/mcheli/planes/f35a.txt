@@ -1,0 +1,145 @@
+DisplayName = F-35A LIGHTNING II
+AddDisplayName = zh_CN,F-35A 闪电-II
+AddDisplayName = en_US,F-35A LIGHTNING II
+MaxHp = 350
+
+Category = 5.0
+ItemID = 28705
+HUD = jet,jet_gunner
+ThirdPersonDist = 25
+Speed = 0.9
+MobilityPitch = 0.85
+MobilityRoll = 1
+MobilityYaw = 0.30
+ThrottleUpDown = 0.45
+SoundVolume = 10
+Sound = jet7_idle
+
+Gravity = -0.038
+motionfactor = 0.965
+MaxFuel = 1260
+FuelConsumption = 1
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+CameraPosition = 0.00, 0, -0.7212
+EnableGunnerMode = true
+AutoPilotRot = 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+AddSeat = 0.00,  2.004,  2.140
+
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_red, 0.00, 2.115, -10.5, -1, 0, 0, 0, 1
+
+AddPartWeaponBay = gps_f35a_gbu53b_dual / arhaam_f35a_aim260,  1.864, 1.303,-3.514,  -0.027, -0.031, 1.000,  80
+AddPartWeaponBay = gps_f35a_gbu53b_dual / arhaam_f35a_aim260, -1.848, 1.288,-3.510,   0.027, -0.031, 1.000, -80
+AddPartWeaponBay = gps_f35a_gbu53b_dual / arhaam_f35a_aim260,  0.5339, 0.9531,-3.599,   0.000, -0.011, 1.000, -80
+AddPartWeaponBay = gps_f35a_gbu53b_dual / arhaam_f35a_aim260, -0.5156, 0.9489,-3.598,   0.000, -0.011, 1.000,  80
+
+ArmorMinDamage = 12
+DamageFactor = 0
+engineShutdownThreshold = 10
+explosionsizebycrash = 5
+BoundingBox = 0.0, 2.087, -4.409, 4.464, 3.025, 11.011, 1.2, DEFAULT, FUSELAGE
+BoundingBox = 0.0, 2.447, 3.442, 2.198, 2.698, 4.835, 1.0, DEFAULT, COCKPIT
+BoundingBox = 0.0, 2.102, -11.105, 2.198, 2.177, 2.43, 1.5, DEFAULT, ENGINE
+BoundingBox = -2.699, 2.103, -11.493, 2.85, 0.651, 3.102, 1.3, DEFAULT, HORISTAB
+BoundingBox = 2.699, 2.103, -11.493, 2.85, 0.651, 3.102, 1.3, DEFAULT, HORISTAB
+BoundingBox = -4.53, 2.103, -6.622, 4.442, 1.015, 4.835, 0.8, DEFAULT, WING
+BoundingBox = 4.53, 2.103, -6.622, 4.442, 1.015, 4.835, 0.8, DEFAULT, WING
+EntityWidth = 0.85
+EntityHeight = 0.85
+
+FlareType = 1
+FlareCapacity = 24
+FlareReleaseCooldown = 6
+HasChaff = true
+ChaffCapacity = 24
+ChaffReleaseCooldown = 5
+hasecmJammer = true
+ecmJammerType = 1
+ecmJammerUseTime = 100
+ecmJammerWaitTime = 600
+ecmJammerRange = 375
+
+RadarType = MODERN_AA
+NameOnModernAARadar = F35
+NameOnEarlyAARadar = JET
+NameOnModernASRadar = F35
+NameOnEarlyASRadar = JET
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = true
+
+RadarSearchType = MULTI_TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = FULL
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 140
+RadarScanElevationDeg = 140
+RadarTrackAzimuthDeg = 140
+RadarTrackElevationDeg = 140
+
+RadarMaxTargetRange = 1400
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 10
+
+RadarScanTick = 8
+RadarContactHoldTick = 100
+RadarDetectChanceBase = 0.95
+RadarGainFactor = 1.55, 0.60
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = F35
+
+RadarRCSFactor = 0.025, 0.22, 0.07, 0.45
+
+EnableHMS = true
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddPartwing = 0.00,  0.9411,-6.735,  1,0, 0, 40
+
+AddPartSteeringWheel = 4.049, 2.286,-8.12, 1, 0, 0.0,   -8
+AddPartSteeringWheel = -4.051, 2.253,-8.111,  -1, 0, 0.0,   -8
+AddPartSteeringWheel = 1.872, 2.257,-11.13, 1, 0, 0.0,   -15
+AddPartSteeringWheel = -1.872, 2.257,-11.13,  -1, 0, 0.0,   -15
+AddPartSteeringWheel = -0.5236,2.559,2.274, 0, 0, 1,   -10
+
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.37
+
+AddPartLG = 0.000, 1.696,1.023,   -1.00, 0.000, 0.00, 102
+
+AddPartLGRev = 0.4194, 1.262, 2.119,   -0.05, 0.075, 1.00,  89
+AddPartLGRev = -0.3910, 1.259, 2.120,    0.05, 0.075, 1.00, -89
+
+AddPartLGScale = 2.379, 2.307, -6
+AddPartLGRev = 2.558, 1.781, -5.153,   -0.05, 0.075, 1.00,  80
+
+AddPartLGScale = -2.379, 2.307, -6
+
+AddPartLGRev = -2.558, 1.781, -5.153,   0.05, 0.075, 1.00,  -80
+
+;Weapons
+AddPartWeaponMissile = gps_f35a_gbu53b_dual,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = gps_f35a_gbu53b_dual,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = arhaam_f35a_aim260,  false, false, false,  -5.0, 0,  0
+AddPartWeaponMissile = arhaam_f35a_aim260,  false, false, false,  -5.0, 0,  0
+
+AddWeapon = ac_f35a_ga22a, 1.085, 3, -1,  0.0, 0.0
+
+AddWeapon = gps_f35a_gbu53b_dual,-0.97, 1.0, -3.82,   0.0, 0.0
+AddWeapon = gps_f35a_gbu53b_dual,-0.97, 1.0, -3.82,   0.0, 0.0
+
+AddWeapon = arhaam_f35a_aim260, 1.085, 1.952, 2.096,  0.0, 0.0
+AddWeapon = arhaam_f35a_aim260, -1.085, 1.952, 2.096,  0.0, 0.0
+
+weapongrouptype = 19

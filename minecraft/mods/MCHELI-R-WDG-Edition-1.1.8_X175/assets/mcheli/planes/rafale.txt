@@ -1,0 +1,200 @@
+DisplayName = RAFALE C.F3-R
+AddDisplayName = zh_CN,阵风 C.F3-R
+AddDisplayName = en_US,RAFALE C.F3-R
+MaxHp = 350
+ArmorMinDamage = 12
+
+AddPartwing =  0.00, 2.263, -4.221,  -1,0,0,  -20
+SweepWingSpeed = 0.9
+AutoPilotRot = 0
+
+Speed = 1.2
+FlareType = 4
+FlareCapacity = 36
+FlareReleaseCooldown = 4
+HasChaff = true
+ChaffCapacity = 36
+ChaffReleaseCooldown = 4
+SoundVolume = 10
+Sound = jet7_idle
+
+ThrottleUpDown = 0.4
+
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+MaxFuel         = 1000
+FuelConsumption = 1
+Category = 4.5
+DamageFactor = 0.0
+HUD = JET, su34_gnr
+
+ThirdPersonDist = 25
+
+MobilityPitch = 1
+MobilityRoll  = 1
+MobilityYaw   = 0.4
+MotionFactor = 0.968
+
+CameraPosition = 0.0, 0.0, 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+AddSeat 	=  0.00,  2.475,  6.319
+
+
+
+AddPartNozzle =  0.6542, 2.6, -7.367, -1,0,0
+AddPartNozzle =  -0.6542, 2.6, -7.367, -1,0,0
+
+
+AddPartWeaponMissile = iraam_rafale_mica,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = iraam_rafale_mica,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_rafale_meteor,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = arhaam_rafale_meteor,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_sbu54_dual,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_sbu54_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_sbu54_dual,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_sbu54_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_sbu54_dual,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_sbu54_dual,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_stormshadow,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_stormshadow,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = gps_rafale_stormshadow,   false, false, false,  -0.297,  0.518, -8.699
+
+
+
+
+
+
+AddPartLGScale    =  0.00,  2.594,  5.776,   
+AddPartLGRev =  -0.4018,  1.81,  6.851,    0, 0, 1,  -100
+AddPartLGRev =  0.3800,  1.769,  6.092,    0, 0, 1,  80
+AddPartLGRev =  -0.3800,  1.769,  6.092,    0, 0, 1,  -80
+AddPartLGRev =  0.15,  1.577,  4.817,    0, 0, 1,  80
+AddPartLGRev =  -0.15,  1.577,  4.817,    0, 0, 1,  -80
+
+AddPartLGScale =  1.031,  1.885,  -0.8539,   
+AddPartLGRev =  1.544,  1.730,  0.2225,    0, 0, 1,  80
+AddPartLGRev =  1.089,  1.575,  -1.594,    -1, 0, 0,  -120
+
+
+AddPartLGScale =  -1.031,  1.885,  -0.8539,    
+AddPartLGRev =  -1.544,  1.730,  0.2225,    0, 0, 1,  -80
+AddPartLGRev =  -1.089,  1.575,  -1.594,    -1, 0, 0,  -120
+
+AddPartSteeringWheel =  0,2.922,3.77, 1, 0, 0.0,   30
+AddPartSteeringWheel =  0,2.922,3.77, 1, 0, 0.0,   -30
+AddPartSteeringWheel =  -2.007,2.352,-4.184, 1, 0, 0.0,   15
+AddPartSteeringWheel =   2.007,2.352,-4.184, 1, 0, 0.0,   -15
+AddPartSteeringWheel =  0.003273, 4.968, -6.741, 0.0, -1.0, 0.337, 10
+AddPartSteeringWheel =  -0.3950, 2.870, 6.697, 0.0, 0.0, -1, 10
+
+
+
+
+AddPartThrottle =  0.5245, 2.919, 6.631,  1,0,0.00, 25
+
+
+
+ecmJammerType = 0
+ecmJammerUseTime = 75
+ecmJammerWaitTime = 350
+
+
+NameOnAdvancedAARadar = CF3
+NameOnModernAARadar = CF3
+NameOnEarlyAARadar = CF3
+NameOnModernASRadar = CF3
+NameOnEarlyASRadar = CF3
+RadarType = MODERN_AA
+
+
+AddWeapon = ac_rafale_30mm,  0.63, 0.9084,  4.269,  0.0,  -0.1
+AddWeapon = iraam_rafale_mica,     6.232,  1.758, -7.699,  0,0.0, true,1,  0,-50,50, -50,50
+AddWeapon = iraam_rafale_mica,     -6.232,  1.758, -7.699,  0,0.0, true,1,  0,-50,50, -50,50
+AddWeapon = arhaam_rafale_meteor,     -0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = arhaam_rafale_meteor,     -0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_sbu54_dual,     0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_sbu54_dual,     -0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_sbu54_dual,     0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_sbu54_dual,     -0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_sbu54_dual,     0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_sbu54_dual,     -0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_stormshadow,     0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_stormshadow,     -0,  0.1, 6.119,  0,0.0, false,1,  0,-360,360, 0,90
+AddWeapon = gps_rafale_stormshadow,     0,  0.1, 0.119,  0,0.0, false,1,  0,-360,360, 0,90
+
+
+AddPartCanopy =  -0.7030, 3.1, 5.196,  0,0,1,  70
+AddPartCanopy =  0.00, 3.526, 5.684,  -1,0,0,  00
+
+BoundingBox = 0, 2.4, 9.2, 1.5, 1.5, 2.5, 1, DEFAULT, NOSE
+BoundingBox = 0, 2.9, 5.7, 1.5, 2.5, 4.5, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 2.5, -1.0, 3, 2, 9, 1, DEFAULT, FUSELAGE
+BoundingBox = 0, 2.6, -6.5, 2.5, 1.2, 2.0, 1.5, DEFAULT, ENGINE
+BoundingBox = 4, 2.2, -2, 5, 0.2, 7, 0.8, DEFAULT, WING
+BoundingBox = -4, 2.2, -2, 5, 0.2, 7, 0.8, DEFAULT, WING
+EntityWidth  = 0.75
+EntityHeight = 0.75
+
+motionfactor=0.965
+
+hasMaintenance=true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+
+engineShutdownThreshold = 10
+
+explosionsizebycrash=4
+Gravity = -0.038
+
+
+weapongrouptype=5
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+enablerwr=true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AddExhaustFlame = Exhaustflame, Exhaustflame_red, 0.6542, 2.6, -7.0, -1, 0, 0, 0, 1
+AddExhaustFlame = Exhaustflame, Exhaustflame_red, -0.6542, 2.6, -7.0, -1, 0, 0, 0, 1
+hasecmJammer=true
+
+enablerwr = true
+EnableRadar = true
+EnableBVR = true
+
+RadarSearchType = MULTI_TWS
+RadarElevationReference = AIRCRAFT
+RadarElevationCoverage = FULL
+RadarFollowTurretYaw = false
+
+RadarScanAzimuthDeg = 140
+RadarScanElevationDeg = 140
+RadarTrackAzimuthDeg = 140
+RadarTrackElevationDeg = 140
+
+RadarMaxTargetRange = 1000
+RadarMinScanAltitude = 10
+RadarMaxScanAltitude = 25
+
+RadarScanTick = 10
+RadarContactHoldTick = 80
+RadarDetectChanceBase = 0.85
+
+RadarPanelFillAlpha = 0.075
+NameOnRWR = CF3

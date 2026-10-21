@@ -1,0 +1,21 @@
+filename = 'shaderfixer-5.5-FINAL.jar'
+name = 'Shader Fixer'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.5-FINAL'
+
+[download]
+hash = '20263fbdbedef41738da26a11e722deab817ce84'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8618455
+project-id = 977626
+
+[[x-prismlauncher-dependencies]]
+addonId = '826970'
+type = 'REQUIRED'

@@ -1,0 +1,42 @@
+DisplayName = TARGET DRONE
+AddDisplayName = zh_CN, 标靶无人机
+AddDisplayName = en_US, TARGET DRONE
+MaxHp = 400
+
+Category = M.Q
+ItemID = 28736
+Speed = 0.9
+ThrottleUpDown = 20.0
+
+Sound = rocket
+Soundvolume = 10
+MaxFuel = 180
+FuelConsumption = 1.0
+VariableSweepWing = true
+SweepWingSpeed = 0.9
+
+AutoPilotRot = -0.5
+
+ParticlesScale = 2.5
+AddPartNozzle = 0.00, 0.02, -1.59, -1,0,0
+AddExhaustFlame = BIG_Exhaustflame, Exhaustflame_blue, 0.00, 0.02, -1.59, -1,0,0,   0,  2
+
+ArmorMinDamage = 11
+BoundingBox = 0.0, 0.0, 0.0, 15, 10
+
+RadarType = MODERN_AA
+NameOnModernAARadar = UAV
+NameOnEarlyAARadar = UAV
+NameOnModernASRadar = UAV
+NameOnEarlyASRadar = UAV
+
+;MISC
+;Place misc paramters here
+onGroundPitch = 20
+UAV = true
+TargetDrone = true
+AddRecipe = "IRF", I,iron_ingot, R,redstone,  F,furnace
+
+; M = Military(軍用機).  Q = Drone(無人航空機)
+
+;DUPLICATES

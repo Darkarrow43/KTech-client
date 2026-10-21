@@ -1,0 +1,31 @@
+DisplayName = 9M133 KORNET
+AddDisplayName = zh_CN, 9M133 导弹发射器
+AddDisplayName = en_US, 9M133 KORNET
+MaxHp = 50
+
+HUD = aa
+RotationPitchMin = -25
+RotationPitchMax = 25
+
+CameraPosition = 0,  1.7,  0
+CameraRotationSpeed = 20
+CameraZoom = 3
+EnableNightVision = false
+AddSeat = 0.4,0,0
+
+ArmorMinDamage = 5
+Boundingbox = 0, 0.7, 0, 1, 1.5, 1, 1, DEFAULT, LAUNCHER
+EntityWidth = 0.9
+EntityHeight = 0.9
+
+NameOnModernAARadar = ATL
+NameOnEarlyAARadar = ATL
+NameOnModernASRadar = ATL
+NameOnEarlyASRadar = ATL
+RadarType = EARLY_AS
+
+;Weapons
+AddTurretWeapon = tv_9m133_9m133,  0.00, 1.6764, 2.43,   0.0, -3.0,   true,1, 0,-360,360, -80, 25
+
+HideEntity = false
+AddPart = false, true, false, 0,   0, 0, 0

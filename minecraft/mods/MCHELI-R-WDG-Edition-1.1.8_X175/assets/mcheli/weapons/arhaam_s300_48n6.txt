@@ -1,0 +1,66 @@
+DisplayName = 48N6 [ARH-AAM]
+Type = AAMissile
+ModelBullet = aim-7m
+Power = 500
+Acceleration = 1.5
+Explosion = 5
+Explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 20
+Reloadtime = 10
+RigidityTime = 10
+
+Group = MainGun
+Round = 4
+LockTime = 0
+DamageFactor = heli, 0.8
+Sound = s300launch
+MaxAmmo = 4
+SuppliedNum = 1
+Gravity = 0
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+predictTargetPos = true
+turningFactor = 0.17
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+numLockedChaffMax = 5
+ChaffDiversionChance = 0.25
+CountermeasureScanInterval = 2
+CountermeasureRange = 52
+CountermeasureEffectiveTime = 60
+MaxLockOnRange = 1000
+MaxDegreeOfMissile = 180
+ActiveRadar = true
+LockMinHeight = 35
+EnableOffAxis = false
+maxLockOnAngle = 180
+enableBVR = true
+WeaponSwitchSound = Switch_Jet_wWeapon_Missile
+SpeedFactor = 0.1
+SpeedFactorStartTick = 0
+SpeedFactorEndTick = 50
+SpeedDependsAircraft = true
+canBeIntercepted = true
+MinRangeBVR = 50
+enableChunkLoader = true
+
+ExplosionDamageVsLiving = 1
+ExplosionDamageVsPlayer = 0.1
+ExplosionDamageVsTank = 0.1
+ExplosionDamageVsPlane = 1
+ExplosionDamageVsHeli = 1
+ExplosionDamageVsVehicle = 0.1
+ExplosionDamageVsShip = 0.1
+enableExhaustFlare = false
+
+crosstype=4
+
+ProximityFuseDist = 18
+proximityFuseTick = 16
+proximityFuseDamage = 275
+proximityFuseHeight = 8
+ExplosionAirburst = 4

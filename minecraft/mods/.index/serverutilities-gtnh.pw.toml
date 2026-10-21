@@ -1,0 +1,29 @@
+filename = 'ServerUtilities-2.4.21.jar'
+name = 'ServerUtilities - GTNH'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ServerUtilities-2.4.21.jar'
+
+[download]
+hash = '848f6edbd3dc00fd18dcd6990e71926c3d429195'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9109035
+project-id = 1539566
+
+[[x-prismlauncher-dependencies]]
+addonId = '688894'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1539674'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '826970'
+type = 'REQUIRED'

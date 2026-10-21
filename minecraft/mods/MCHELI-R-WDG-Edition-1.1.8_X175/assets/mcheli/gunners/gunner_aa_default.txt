@@ -1,0 +1,14 @@
+DisplayName=Gunner [Anti-Missile]
+AddDisplayName=ja_JP,対弾薬迎撃 射撃手
+AddDisplayName=zh_CN,炮手[反导]
+ItemName=gunner_aa
+TargetType=aa
+StupidGunner=false
+PrimaryColor=0xC0C000
+SecondaryColor=0x008000
+UseLayeredIcon=true
+AllowLeadForAirTarget=true
+StupidAttackSectorScaleGround=1.0
+EnableShortBurst=false
+ShortBurstFireTick=14
+ShortBurstRestTick=10

@@ -1,0 +1,5 @@
+DisplayName = none
+Type = Dummy
+canBeIntercepted=false
+Explosion = 0
+Explosionblock = 0

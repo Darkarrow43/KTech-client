@@ -1,0 +1,99 @@
+DisplayName = MI-8
+MaxHp = 350
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 0.5
+SoundPitch = 2.0
+Sound = w3wa-sokol
+FlareType = 3
+FlareCapacity = 24
+FlareReleaseCooldown = 4
+HasChaff = true
+ChaffCapacity = 16
+ChaffReleaseCooldown = 4
+onGroundPitch = 2.5
+FloatOffset = -0.9
+ThirdPersonDist = 20
+
+AddTexture = mi8amtsh-2_2
+Soundvolume = 10
+MinRotationPitch = -60
+MaxRotationPitch = 60
+ThrottleUpDown = 0.4
+
+Category = 2.0
+
+HUD = heli, heli, heli_gnr, heli_gnr, heli_gnr, none, none, none, none, none, none, none, none, none, none
+
+MaxFuel         = 1200
+FuelConsumption = 1
+
+AddRotor= 1,90,  0.00,   3.7437, -3.0216,   0.0, -1.0, 0.0, true
+AddRotor= 1,0,   0.7171, 4.5311, -15.8588, -1.0,  0.0, 0.0, false
+
+AddSeat =  0.5584, 0.65, 0.9721
+AddSeat = -0.5584, 0.75, 0.9721
+
+AddGunnerSeat =  0.78,   0.75, -0.3470,  0.78, 1.8056, -0.3470
+AddGunnerSeat = -0.78,   0.75, -0.3470, -0.78, 1.8056, -0.3470
+AddGunnerSeat =  0.0,    0.75, -6.1607,  0.0,  1.8056, -6.1607
+
+AddSeat =  0.9689, 0.75, -1.1820
+AddSeat =  0.9689, 0.75, -1.9678
+AddSeat =  0.9689, 0.75, -2.8808
+AddSeat =  0.9689, 0.75, -3.5839
+AddSeat =  0.9689, 0.75, -4.5747
+
+AddSeat = -0.9689, 0.75, -1.9678
+AddSeat = -0.9689, 0.75, -2.8808
+AddSeat = -0.9689, 0.75, -3.5839
+AddSeat = -0.9689, 0.75, -4.5747
+
+AddWeapon = b8v20,  2.2199, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20, -2.2199, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20,  2.8720, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20, -2.8720, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20,  3.4318, 1.1034, -2.4216, 0.0, 0.0
+AddWeapon = b8v20, -3.4318, 1.1034, -2.4216, 0.0, 0.0
+
+AddWeapon = mg_mi8_762_l,  1.0982, 1.4926, -0.3429,   0.0, 0.0, false, 3,-90, -50, 50, -10,80
+AddPartWeapon    = mg_mi8_762_l, false, true, false,  1.0982, 1.4577, -0.3222
+AddPartWeapon    = mg_mi8_762_l, false, true, true,   1.0982, 1.4926, -0.3222
+
+AddWeapon = mg_mi8_762_r, -1.1672, 1.4926, -0.3463,   0.0, 0.0, false, 4, 90, -50, 50, -10,80
+AddPartWeapon    = mg_mi8_762_r, false, true, false, -1.1672, 1.4577, -0.3463
+AddPartWeapon    = mg_mi8_762_r, false, true, true,  -1.1672, 1.4926, -0.3463
+
+AddWeapon = mg_mi8_762_b,  0.0,    1.4371, -6.7015,   0.0, 0.0, false, 5, 180,-50, 50, -10,80
+AddPartWeapon    = mg_mi8_762_b, false, true, false,  0.0,    1.4022, -6.7015
+AddPartWeapon    = mg_mi8_762_b, false, true, true,   0.0,    1.4371, -6.7015
+
+BoundingBox = 0, 1.3, 1, 2, 2.2, 2, 1.2, DEFAULT, COCKPIT
+BoundingBox = 0, 1.3, -4.0, 2, 2.2, 8.0, 0.7, DEFAULT, BODY
+BoundingBox = 0, 2.9, -3, 2, 1, 5.5, 1.3, DEFAULT, ENGINE
+BoundingBox = 0, 4.3, -3, 5, 0.2, 5, 1.5, DEFAULT, ROTOR
+BoundingBox = 0, 2.9, -10, 1, 1, 8.6, 1.1, DEFAULT, TAIL
+BoundingBox = 0, 3.8, -15.8, 1, 3, 3, 1.5, DEFAULT, ROTOR
+
+RadarType = EARLY_AS
+NameOnAdvancedAARadar = MI8
+NameOnModernAARadar = MI8
+NameOnEarlyAARadar = MI8
+NameOnModernASRadar = MI8
+NameOnEarlyASRadar = MI8
+enablerwr = true
+
+enablerwr = false
+EnableRadar = false
+EnableBVR = false
+
+NameOnRWR = MI8
+
+AddPartSteeringWheel =   0.5555,  0.6351,  1.3488,  0, 0, 1,   -20
+AddPartSteeringWheel =  -0.5555,  0.6351,  1.3488,  0, 0, 1,   -20
+
+AddPartSteeringWheel =   0,  0,  0,  0, 0, 0,   0
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200

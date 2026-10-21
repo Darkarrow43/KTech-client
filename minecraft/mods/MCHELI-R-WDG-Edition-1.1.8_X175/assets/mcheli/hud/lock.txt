@@ -1,0 +1,63 @@
+If = lock<=0.15&&lock>0
+DrawTexture = lock1, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.2&&lock>0.15
+DrawTexture = lock2, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.25&&lock>0.2
+DrawTexture = lock3, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.3&&lock>0.25
+DrawTexture = lock4, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.35&&lock>0.3
+DrawTexture = lock5, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.4&&lock>0.35
+DrawTexture = lock6, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.45&&lock>0.4
+DrawTexture = lock7, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.5&&lock>0.45
+DrawTexture = lock8, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.55&&lock>0.5
+DrawTexture = lock9, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.6&&lock>0.55
+DrawTexture = lock10, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.65&&lock>0.6
+DrawTexture = lock10, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.7&&lock>0.65
+DrawTexture = lock9, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.75&&lock>0.7
+DrawTexture = lock8, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.8&&lock>0.75
+DrawTexture = lock9, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=0.85&&lock>0.8
+DrawTexture = lock10, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf
+
+If = lock<=1&&lock>0.85
+DrawTexture = lock11, (-64*(width/960)), (-64*(height/500)), (128*(width/960)), (128*(height/500)), 0,0,256,256
+EndIf

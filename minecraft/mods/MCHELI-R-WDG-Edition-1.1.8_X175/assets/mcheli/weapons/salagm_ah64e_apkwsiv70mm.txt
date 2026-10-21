@@ -1,0 +1,59 @@
+DisplayName = APKWS IV 70MM [SAL]
+Type = TVMissile
+Power = 40
+ModelBullet = hydra70
+Acceleration = 8
+Explosion = 3
+Explosionblock = 0
+Sound = rocket_snd
+Flaming = false
+Sight = MissileSight
+Delay = 2
+ReloadTime = 10
+Round = 38
+SoundVolume = 10
+DamageFactor = plane, 2
+DamageFactor = heli, 2
+DamageFactor = vehicle , 1
+DamageFactor = tank, 1.5
+
+DisplayMortarDistance = true
+Accuracy = 0.5
+ModeNum = 2
+FixMode = 1
+
+Gravity = -0.002
+
+
+MaxAmmo = 38
+SuppliedNum = 38
+Item =  1, iron_ingot
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+EnableOffAxis = false
+
+PassiveRadar = false
+IsHeatSeekerMissile = false
+IsRadarMissile = false
+MaxLockOnRange = 600
+locktime = 0
+turningFactor = 0.15
+crosstype=1
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.3
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+DamageFactor = ship, 1.5
+ExplosionDamageVsShip=0.5
+
+MaxLockOnAngle = 15
+MaxDegreeOfMissile = 90
+
+laserGuidance = true
+hasLaserGuidancePod = true
+CameraFollowLockEntity = true
+cameraFollowstrength=1
+LockEntity=true

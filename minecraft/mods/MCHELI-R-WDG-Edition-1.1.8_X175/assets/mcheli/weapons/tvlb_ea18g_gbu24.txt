@@ -1,0 +1,57 @@
+DisplayName = GBU-24 Paveway III [SALH]
+Type = TVMissile
+Power = 1000
+Acceleration = 0.2
+Explosion = 45
+ExplosionBLOCK = 45
+Flaming = false
+Sight = MissileSight 
+Delay = 200
+
+ModeNum = 2
+Round = 1
+reloadtime = 10
+ModelBullet = gbu16
+Sound = missile_11_snd
+RidableOnly = false
+fixmode=1
+
+laserGuidance = true
+hasLaserGuidancePod = true
+turningFactor = 1
+effectyield = 8
+
+turningFactor = 0.2
+DamageFactor = player, 0.5
+DamageFactor = plane, 0.01
+DamageFactor = heli, 0.01
+DamageFactor = vehicle , 1.1
+DamageFactor = tank, 1.1
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+
+Gravity = -0.008
+EnableOffAxis = false
+turningFactor = 0.10
+maxDegreeOfMissile=70
+crosstype=18
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=10
+ExplosionDamageVsPlane=5
+ExplosionDamageVsHeli=5
+ExplosionDamageVsVehicle=3
+ExplosionDamageVsShip=5
+
+DamageFactor = living, 0.5
+DamageFactor = ship, 1.1
+disablesmoke=true
+SpeedDependsAircraft = true
+RigidityTime = 10
+LockEntity=true
+CameraFollowLockEntity = true
+LockEntity=true

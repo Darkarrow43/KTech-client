@@ -1,0 +1,43 @@
+{
+  "worlds": {
+    "9c1e8bc5-ddc3-4456-9e9f-da8bf92d9c61": {
+      "pinnedTasks": [],
+      "foldedTasks": {}
+    },
+    "359085d0-2867-4d44-9bf0-a929d61068fb": {
+      "pinnedTasks": [],
+      "foldedTasks": {}
+    },
+    "21c3a1c0-4ad1-4199-81d3-00057e898ecb": {
+      "pinnedTasks": [],
+      "foldedTasks": {}
+    },
+    "e5d92e2b-d2ce-4c1e-a3fc-cfbe1925e7c7": {
+      "pinnedTasks": [],
+      "foldedTasks": {}
+    },
+    "bf2dd480-b617-4bd7-95cf-c37e6000f03e": {
+      "pinnedTasks": [],
+      "foldedTasks": {}
+    },
+    "0a3401f8-6114-44d4-8887-b01009afc6d3": {
+      "pinnedTasks": [],
+      "foldedTasks": {}
+    },
+    "fde2e053-513a-4521-93bc-5162e8d78172": {
+      "pinnedTasks": [],
+      "foldedTasks": {}
+    }
+  },
+  "hud": {
+    "anchor": "TOP_RIGHT",
+    "offsetX": 0,
+    "offsetY": 0,
+    "scale": 1.0,
+    "showBackground": true,
+    "hudVisible": true,
+    "maxChecklistShown": 3,
+    "maxSubtaskRowsShown": 3,
+    "maxPinnedTasks": 5
+  }
+}

@@ -1,0 +1,34 @@
+DisplayName = TOW-2N [TV]
+Type = tvMissile
+Power = 600
+Acceleration = 2
+Explosion = 4
+Explosionblock = 5
+Flaming = false
+Sight = false
+Delay = 20
+ModeNum = 2
+ModelBullet = agm114
+Sound = sa-2_snd
+ReloadTime = 10
+Round = 8
+
+TimeFuse = 300
+DamageFactor = plane, 0.01
+DamageFactor = heli, 0.01
+DisplayMortarDistance = true
+Fixmode=1
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+crosstype=7
+
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=0.5
+ExplosionDamageVsPlane=0.5
+ExplosionDamageVsHeli=0.5
+ExplosionDamageVsVehicle=0.5
+ExplosionDamageVsShip=0.5

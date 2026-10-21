@@ -1,0 +1,41 @@
+{
+  "recipes": [
+    {
+      "name": "incubator.duplicate",
+      "inputItem": [
+        ["nbt","hbm:item.vial",1,0,"{type:31s,frame:\"mku\",fill:100s}"]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL_COLD",100]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.vial",1,0,"{type:31s,frame:\"mku\",fill:100s}"]]
+      ],
+      "outputFluid": [
+        ["PERFLUOROMETHYL",100]
+      ],
+      "duration": 200,
+      "power": 100,
+      "named": true
+    },
+    {
+      "name": "incubator.syringe",
+      "inputItem": [
+        ["nbt","hbm:item.medical_syringe",1,0,"{type:31s,ownerUUID:\"00000000-0000-0000-0000-000000000000\",ownerName:\"Player\",fill:1000s}"],
+        ["item","hbm:item.medical_syringe"]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL_COLD",100]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.medical_syringe",1,0,"{type:31s,ownerUUID:\"00000000-0000-0000-0000-000000000000\",ownerName:\"Player\",fill:1000s}"]]
+      ],
+      "outputFluid": [
+        ["PERFLUOROMETHYL",100]
+      ],
+      "duration": 12000,
+      "power": 100,
+      "named": true
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+DisplayName = S300PM
+Category = 5.0
+MaxHp = 200
+Speed = 0.833333
+WheeledHandling = true
+WheeledAcceleration = 0.825
+WheeledTurnRadius = 12.00
+SetWheelPos = 1.2912, -0.24, 4.1123, 1.7870, -1.7381, -4.0641
+StepHeight = 1.5
+MinRotationPitch = -90
+MaxRotationPitch = 90
+Gravity        = -0.15
+GravityInWater = -0.1
+EnableNightVision = false
+MaxFuel           = 1200
+FuelConsumption   = 1
+ThirdPersonDist = 15
+DefaultFreelook = true
+EnableEntityRadar = true
+EnableBack = true
+Soundvolume = 10
+Sound = tank7_idle
+hasAARadar = true
+WeightType = Tank
+CameraPosition = 1.25, 1.9, 5.8
+
+HUD = aa, aa
+hudtype=3
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddSeat =       1.2433,  0.85,  5.7235
+AddGunnerSeat = 1.2433,  0.95,  4.9393, 0.0, 10, 0.0, false, -360, 360, false
+DamageFactor = 0
+
+PartWheelRot = 25
+
+AddPartWheel     =  1.2912,   0.3878,  4.1123, 35
+AddPartWheel     = -1.2912,   0.3878,  4.1123, 35
+AddPartWheel     =  1.2912,   0.3878,  1.7870, 35
+AddPartWheel     = -1.2912,   0.3878,  1.7870, 35
+
+AddPartWheel     =  1.2912,   0.3878, -1.7381
+AddPartWheel     = -1.2912,   0.3878, -1.7381
+AddPartWheel     =  1.2912,   0.3878, -4.0641
+AddPartWheel     = -1.2912,   0.3878, -4.0641
+
+AddPartWeaponBay	= arhaam_s300_48n6,  0, 1.4169, -5.10706, 1.0, 0.0, 0.0, -90
+
+;AddTurretWeapon = arhaam_s300_48n6,  0.80, 8, -6.8,   0.0, -90.0, false, 2, 0, -360, 360, -360, 360
+;AddTurretWeapon = arhaam_s300_48n6, -0.80, 8, -6.8,   0.0, -90.0, false, 2, 0, -360, 360, -360, 360
+;AddTurretWeapon = arhaam_s300_48n6,  1.20, 8, -5.8,   0.0, -90.0, false, 2, 0, -360, 360, -360, 360
+;AddTurretWeapon = arhaam_s300_48n6, -1.20, 8, -5.8,   0.0, -90.0, false, 2, 0, -360, 360, -360, 360
+
+AddWeapon = arhaam_s300_48n6,  0.80, 8, -6.8,   0.0, -90.0, false, 2, 0, 0, 0, -90, -90
+AddWeapon = arhaam_s300_48n6, -0.80, 8, -6.8,   0.0, -90.0, false, 2, 0, 0, 0, -90, -90
+AddWeapon = arhaam_s300_48n6,  1.20, 8, -5.8,   0.0, -90.0, false, 2, 0, 0, 0, -90, -90
+AddWeapon = arhaam_s300_48n6, -1.20, 8, -5.8,   0.0, -90.0, false, 2, 0, 0, 0, -90, -90
+
+AddPartSteeringWheel =  1.2433, 1.5278, 6.0613,  0,  1, -0.400,  130
+
+AddPartCanopy = 1.6503, 1.6872, 6.1585, 0, 1, 0, -70
+AddPartCanopy = 0, 0, 0, 0, 0, 0, 0
+
+BoundingBox = 0, 1.5, 5.5, 3, 2, 2.4, 1.5, DEFAULT, CREW
+BoundingBox = 0, 1, 0, 3, 1, 10, 0.5, DEFAULT, TRAILER
+BoundingBox = 0, 2.5, -1.5, 3, 2, 11, 1.5, DEFAULT, LAUNCHER
+
+ArmorMinDamage = 12
+engineshutdownthres = 5
+
+RadarType = ADVANCED_AA
+NameOnModernAARadar = S300
+NameOnEarlyAARadar = S300
+NameOnModernASRadar = S300
+NameOnEarlyASRadar = S300
+enablerwr = true
+
+EnableRadar = true
+EnableBVR = true
+RadarScanElevationDeg = 90
+RadarFollowTurretYaw = true
+RadarElevationReference = HORIZON
+RadarPanelFillAlpha = 0.075
+RadarElevationCoverage = FULL
+RadarScanAzimuthDeg = 360
+RadarScanTick = 12
+RadarContactHoldTick = 120
+RadarMaxTargetRange = 1650
+RadarSearchType = MULTI_TWS
+RadarMinScanAltitude = 5
+RadarMaxScanAltitude = 5
+RadarDetectChanceBase = 0.94
+RadarTrackAzimuthDeg = 360
+RadarTrackElevationDeg = 85
+RadarGainFactor = 1.60, 0.62
+NameOnAdvancedAARadar = S300
+NameOnRWR = S300

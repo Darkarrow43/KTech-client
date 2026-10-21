@@ -1,0 +1,38 @@
+; 显示名称（默认语言）
+DisplayName=Gunner [Faction AA]
+; 显示名称（日文）
+AddDisplayName=ja_JP,対弾薬迎撃 射撃手[陣営]
+; 显示名称（中文）
+AddDisplayName=zh_CN,炮手[阵营][防空]
+; 物品注册名（决定物品ID/贴图key）
+ItemName=gunner_faction_aa
+; 目标类型：aa=反导/防空拦截弹药
+TargetType=aa
+; 阵营模式：player=继承放置者阵营
+TeamMode=player
+; 阵营角色（用于按角色区分概率策略）
+FactionRole=aa
+; 是否固定为愚人炮手
+StupidGunner=false
+; 愚人概率（0.15=15%）
+StupidGunnerChance=0.15
+; 主色（物品渲染色）
+PrimaryColor=0xC0C000
+; 副色（物品渲染色）
+SecondaryColor=0x00A0FF
+; 是否使用叠层贴图（按你的要求关闭）
+UseLayeredIcon=false
+; 是否允许对空提前量
+AllowLeadForAirTarget=true
+; 对空武器优先级：machinegun1=machinegun2=railgun > laser > aamissile > tvmissile
+AirWeaponPriority=machinegun1:100|machinegun2:100|railgun:100|laser:80|aamissile:60|tvmissile:40
+; 对地武器优先级（同上）
+GroundWeaponPriority=machinegun1:100|machinegun2:100|railgun:100|laser:80|aamissile:60|tvmissile:40
+; 愚人模式地面攻击扇区倍率
+StupidAttackSectorScaleGround=1.0
+; 是否启用短点射
+EnableShortBurst=false
+; 短点射连续开火tick
+ShortBurstFireTick=14
+; 短点射停火tick
+ShortBurstRestTick=10

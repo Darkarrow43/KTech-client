@@ -1,0 +1,21 @@
+filename = 'lwjgl3ify-3.0.39.jar'
+name = 'lwjgl3ify'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lwjgl3ify-3.0.39.jar'
+
+[download]
+hash = '13d907c295018de9c56988f1f4b1ad5e81b193bc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9175024
+project-id = 998880
+
+[[x-prismlauncher-dependencies]]
+addonId = '826970'
+type = 'REQUIRED'
