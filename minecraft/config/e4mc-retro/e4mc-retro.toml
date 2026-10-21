@@ -1,6 +1,6 @@
 # Whether to use the broker to get the best relay based on location or use a hard-coded relay.
 # default: true
-useBroker = true
+useBroker = false
 # default: https://broker.e4mc.link/getBestRelay
 brokerUrl = "https://broker.e4mc.link/getBestRelay"
 # default: test.e4mc.link
