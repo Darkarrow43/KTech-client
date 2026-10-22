@@ -8,25 +8,11 @@
       "output4": ["HYDROGEN",30]
     },
     {
-      "input": "UGAS",
-      "output1": ["OXYGEN",45],
-      "output2": ["AROMATICS",15],
-      "output3": ["METHANOL",15],
-      "output4": ["NITROGEN",25]
-    },
-    {
       "input": "SARNUSGAS",
       "output1": ["HYDROGEN",45],
       "output2": ["NITROGEN",5],
       "output3": ["GAS",15],
       "output4": ["HELIUM3",35]
-    },
-    {
-      "input": "DUNAAIR",
-      "output1": ["CARBONDIOXIDE",70],
-      "output2": ["OXYGEN",5],
-      "output3": ["ARGON",10],
-      "output4": ["NITROGEN",15]
     },
     {
       "input": "TEKTOAIR",
@@ -36,11 +22,25 @@
       "output4": ["CHLORINE",25]
     },
     {
+      "input": "UGAS",
+      "output1": ["OXYGEN",45],
+      "output2": ["AROMATICS",15],
+      "output3": ["METHANOL",15],
+      "output4": ["NITROGEN",25]
+    },
+    {
       "input": "EARTHAIR",
       "output1": ["NITROGEN",60],
       "output2": ["CARBONDIOXIDE",5],
       "output3": ["KRYPTON",10],
       "output4": ["OXYGEN",25]
+    },
+    {
+      "input": "DUNAAIR",
+      "output1": ["CARBONDIOXIDE",70],
+      "output2": ["OXYGEN",5],
+      "output3": ["ARGON",10],
+      "output4": ["NITROGEN",15]
     },
     {
       "input": "NGAS",

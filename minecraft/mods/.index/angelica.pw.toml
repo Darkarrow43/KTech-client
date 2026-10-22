@@ -1,19 +1,19 @@
-filename = 'angelica-2.2.35.jar'
+filename = 'angelica-2.2.36.jar'
 name = 'Angelica'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.7.10' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'angelica-2.2.35.jar'
+x-prismlauncher-version-number = 'angelica-2.2.36.jar'
 
 [download]
-hash = '85121da267642f874734bbc751c1ab6af5ac919a'
+hash = '9361945fbca42c20697988e094d579817fe16927'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9252477
+file-id = 9285246
 project-id = 988067
 
 [[x-prismlauncher-dependencies]]

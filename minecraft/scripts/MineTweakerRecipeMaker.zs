@@ -15,7 +15,7 @@
 
 recipes.remove(<hbm:item.meteorite_sword>);
 
-recipes.remove(<hbm:item.powder_advanced_alloy>);
+
 recipes.remove(<hbm:item.powder_dura_steel>);
 
 
@@ -38,5 +38,11 @@ recipes.addShapeless(<mcheli:fuel>, [<ore:container1000diesel>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<mcheli:mi8amtsh-2>, [[null, <vp:HelicopterBlades>, null], [<vp:RadarBasic>, <vp:LightEngine>, <vp:AirframeLight>], [null, <vp:Skid>, null]]);
+recipes.addShaped(<vp:AirframeLight>, [[<minecraft:glass_pane>, <ore:paneGlassColorless>, <hbm:item.plate_iron>], [<ore:paneGlassColorless>, <hbm:item.plate_iron>, <minecraft:iron_ingot>], [<hbm:item.plate_iron>, <minecraft:iron_ingot>, <hbm:item.plate_iron>]]);
+recipes.addShaped(<vp:Skid>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<hbm:item.plate_iron>, null, <hbm:item.plate_iron>]]);
+recipes.addShaped(<vp:LightEngine>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<vp:HelicopterBlades>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped(<vp:RadarBasic>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <ore:dustRedstone>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
 
