@@ -1,0 +1,1 @@
+Ktech S5.9 is a continuation of the advanced S5.8 (a lengthy and time consuming season that went through 8 revisions) that was never really used, it is technically S7 but demand for this has dropped so it is not a "major release" but has way better performance and feature
