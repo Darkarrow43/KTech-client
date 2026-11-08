@@ -23,3 +23,5 @@ minecraft/config/euphoria_patcher/.data.json
 minecraft/config/schematica_plus
 minecraft/journeymap/journeymap.log
 minecraft/config/tasknh_pins.json
+instance.cfg
+/minecraft/config/hbmRecipes
