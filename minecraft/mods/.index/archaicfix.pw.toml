@@ -1,16 +1,21 @@
-filename = 'archaicfix-0.8.0.jar'
+filename = 'archaicfix-0.8.2.jar'
 name = 'ArchaicFix'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.7.10' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'archaicfix-0.8.2.jar'
 
 [download]
-hash = 'bc23c0b52560089424d84c1ff4e9ac1d04fb83e4'
+hash = '0c7b2396d6ecb5da917da868b28c231acd213476'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8125364
+file-id = 9300534
 project-id = 677782
+
+[[x-prismlauncher-dependencies]]
+addonId = '826970'
+type = 'REQUIRED'

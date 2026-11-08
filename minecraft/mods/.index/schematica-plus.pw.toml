@@ -1,16 +1,18 @@
-filename = 'Schematica-2.0.0-alpha.5-3003-0402.jar'
-name = 'Schematica-Plus'
-side = 'client'
+filename = 'schematica_plus-1.0.0-beta.4.jar'
+name = 'Schematica'
+side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.7.10' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'beta.4'
 
 [download]
-hash = '95fe550b2214dd1a1d159bf3768e5317010dc339'
+hash = '396177fc7af31aa6223b22988775bf1a0adfccd1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7842678
+file-id = 9323432
 project-id = 1485733

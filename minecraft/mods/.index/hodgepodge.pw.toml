@@ -1,16 +1,93 @@
-filename = 'hodgepodge-2.7.218.jar'
+filename = 'hodgepodge-2.8.1.jar'
 name = 'Hodgepodge'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.7.10' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hodgepodge-2.8.1.jar'
 
 [download]
-hash = 'a77680edb9ec20a01f3a1ce49ec88cc881ddb06e'
+hash = 'c998717200bbc5ba95e59175a281d5ed5ba4d59b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9263545
+file-id = 9478060
 project-id = 688899
+
+[[x-prismlauncher-dependencies]]
+addonId = '226410'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231262'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '220318'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '222153'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242638'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '32274'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224476'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '826970'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224369'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242677'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229002'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69162'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228027'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224440'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '688894'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225561'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '51195'
+type = 'OPTIONAL'

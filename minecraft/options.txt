@@ -16,7 +16,7 @@ fancyGraphics:true
 ao:2
 clouds:false
 resourcePacks:["Emissive Hbm\u0027s NTM Textures 1.2.1.zip","MCHR Resourcepack","Glowing Hbm\u0027s NTM Ores 1.0.zip"]
-lastServer:192.168.3.197
+lastServer:
 lang:en_US
 chatVisibility:0
 chatColors:true
@@ -185,11 +185,6 @@ key_hbm.key.abilityAlt:56
 key_hbm.key.copyToolAlt:56
 key_hbm.key.copyToolCtrl:29
 key_navigator.key.action:211
-key_schematica.key.save:27
-key_schematica.key.control:41
-key_schematica.key.layerInc:0
-key_schematica.key.layerDec:0
-key_schematica.key.execute:28
 key_key.serverutilities.nbt:0
 key_key.serverutilities.trash:0
 key_keys.adventureBackpack.openInventory:48
@@ -200,9 +195,6 @@ key_iris.keybind.shaderPackSelection:0
 key_angelica.keybind.zoom:0
 key_angelica.keybind.fps_reducer_force:0
 key_angelica.keybind.fps_reducer_disable:0
-key_bs.sprint.toggle:34
-key_bs.sneak.toggle:0
-key_bs.menu:0
 key_Options Gui:23
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.toggle_entity_names:34
@@ -237,6 +229,13 @@ key_key.wgprofiler.open:41
 key_WorldEdit Reference:76
 key_key.fastBlockPlacing.desc:0
 key_key.betterfoliage.gui:66
+key_key.sort_config:0
+key_key.sort_nogui:0
+key_key.sort_gui:-98
+key_key.dropoff:0
+key_key.ae2_terminal_search:20
+key_key.bogosorter.controls_button:0
+key_key.bogosorter.pin_slot:-98:CONTROL
 key_key.carbon_config.key:74
 key_key.carbon_config.dep:79
 soundCategory_master:0.24172185
