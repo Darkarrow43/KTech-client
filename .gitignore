@@ -25,3 +25,7 @@ minecraft/journeymap/journeymap.log
 minecraft/config/tasknh_pins.json
 instance.cfg
 /minecraft/config/hbmRecipes
+/minecraft/fonts
+minecraft/config/hbmConfig/_hbmArmor.json
+minecraft/config/hbmConfig/_hbmFluidTraits.json
+minecraft/config/hbmConfig/_hbmRadResist.json
